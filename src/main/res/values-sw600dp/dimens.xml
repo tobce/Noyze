@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">true</bool>
+
+    <!-- The barHeight of the notification panel window: match_parent below sw600dp -->
+    <dimen name="notification_panel_width">478dp</dimen>
+
+    <!-- Layout parameters for the notification panel -->
+    <dimen name="notification_panel_margin_bottom">192dp</dimen>
+    <dimen name="notification_panel_margin_left">16dp</dimen>
+
+    <!-- Gravity for the notification & quick settings panels -->
+    <!-- 0x800033 = start|top ; 0x800035 = end|top -->
+    <integer name="notification_panel_layout_gravity">0x800033</integer>
+
+    <dimen name="volume_panel_screen_width">478.0dip</dimen>
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation">
+
+    <string name="description">noyze - самая настраиваемая панель громкости на Android, в которой есть темы, панель управления музыкой и еще много функций!</string>
+
+    <string name="aboutLibraries_description_text">>noyze - самая настраиваемая панель громкости на Android, в которой есть темы, панель управления музыкой и еще много функций! Специальные благодарности:\n\n&#183; Justin Perricone
+        \n&#183; Luke Rodriguez\n&#183; Temitayo Odesanmi\n&#183; Jeremy Sinclair\n&#183; Michael Collins
+        \n&#183; Johan Jaworski\n&#183; Grantland Chew\n&#183; Ahmed AboutElnour\n&#183; Hoogyme of Reddit
+        \n&#183; Lahiri Cristofori\n&#183; Daniel Rusanow\n&#183; Max Blokker\n&#183; Marcio Andrade
+        \n&#183; Daniel Retkiewicz\n&#183; Tobias Christensen Eikeland\n&#183; ja_som
+        \n\nСделал с любовью Tom Barrasso.\nCopyright &#169; 2014</string>
+
+    <string name="accessibility_service_label">Сервис noyze</string>
+    <string name="accessibility_service_description">Специальные возможности позволяют noyze контролировать кнопки громкости.
+        Мы используем только информацию, необходимую для воссоздания панели громкости, и абсолютно ничего никуда не сохраняется и не отправляется.</string>
+    <string name="accessibility_dialog_title">Специальные возможности</string>
+    <string name="accessibility_dialog_description">noyze должен быть включен через Настройки > Специальные возможности чтобы контролировать кнопки громкости.</string>
+    <string name="accessibility_dialog_description_on">noyze может быть выключен только через Настройки > Специальные возможности.</string>
+    <string name="accessibility_error">Не могу открыть: попробуйте сами зайти в Настройки > Специальные возможности</string>
+
+    <string name="notification_dialog_title">Доступ к уведомлениям</string>
+    <string name="notification_dialog_description">Доступ к панели уведомленй позволяет noyze узнавать, какая музыка играет в данный момент.
+        Это можно включить только через Настройки > Безопасность > Доступ к уведомлениям.</string>
+    <string name="notification_dialog_description_on">Доступ к уведомлениям можно включить только через Настройки > Безопасность > Доступ к уведомлениям.</string>
+    <string name="notification_error">C>Не могу открыть: попробуйте сами зайти в Настройки > Безопасность > Доступ к уведомлениям</string>
+    <string name="inapp_error">Платежная служба Google Play недоступна</string>
+
+    <string name="expand">Раскрыть</string>
+    <string name="select">Выбрать</string>
+    <string name="selected">Выбрано</string>
+    <string name="foreground_notif">Уведомление</string>
+    <string name="transparency">Прозрачность</string>
+    <string name="go_pro">Полная версия</string>
+
+    <string name="take_me">Перейти</string>
+    <string name="interface_settings">Персонализация</string>
+    <string name="interface_settings_desc">Темы и визуальные настройки</string>
+    <string name="media_settings">Звук и медиа</string>
+    <string name="media_settings_desc">Настройки звука и управления проигрыванием медиа</string>
+    <string name="theme">Тема</string>
+    <string name="theme_desc">Выберите тему из десятка доступных</string>
+    <string name="timeout">Время ожидания</string>
+    <string name="timeout_desc">Время в секундах, через которое панель будет спрятана</string>
+    <string name="music_app">Приложение музыки</string>
+    <string name="music_app_desc">В случае, если noyze не может определить сам, какое приложение проигрывает музыку</string>
+    <string name="about_settings">О приложении</string>
+    <string name="about_noyze">О приложении noyze</string>
+    <string name="master_volume">Единая громкость</string>
+    <string name="master_volume_desc">Много звуков, один переключатель громкости</string>
+    <string name="volume_change">Звук изменения громкости</string>
+    <string name="volume_change_desc">Проигрывать звук при изменении громкости</string>
+    <string name="title_apps">Приложения</string>
+    <string name="title_shortcuts">Ярлыки</string>
+    <string name="media_shortcut">Управление медиа</string>
+    <string name="color">Цвет</string>
+    <string name="icon">Иконка</string>
+    <string name="foreground_color">Основной цвет</string>
+    <string name="foreground_color_desc">Выберите основной цвет</string>
+    <string name="background_color">Цвет фона</string>
+    <string name="background_color_desc">Выберите цвет фона</string>
+    <string name="labs_title">Эксперименты</string>
+    <string name="labs_desc">Экспериментальные функции и настройки</string>
+    <string name="media_playback_alt">Управление музыкой</string>
+    <string name="media_playback_alt_desc">Включите \"Доступ к уведомлениям\" для улучшенного управления музыкой</string>
+    <string name="advanced_title">Дополнительно</string>
+    <string name="anonymous_title">Помогите улучшить noyze</string>
+    <string name="anonymous_desc">Отправлять анонимную статистику использования, чтобы улучшить noyze</string>
+    <string name="seek_title">Ползунок уровня громкости</string>
+    <string name="seek_desc">Управляйте громкостью при помощи ползунка</string>
+    <string name="no_longpress_title">Игнорировать долгие нажатия</string>
+    <string name="no_longpress_desc">noyze будет игнорировать долгие нажатия</string>
+    <string name="album_art">Обложки альбомов</string>
+    <string name="say_thanks">Сказать спасибо</string>
+    <string name="say_thanks_desc">Если вам нравится noyze, пожалуйста оставьте комментарий в Play Store</string>
+    <string name="long_press_up">Долгое нажатие на кнопку увеличения громкости</string>
+    <string name="long_press_down">Долгое нажатие на кнопку уменьшения громкости</string>
+    <string name="long_press_desc">Выберите приложения или ярлык для запуска</string>
+    <string name="smart_hide">Скрытие во время проигрывания</string>
+    <string name="smart_hide_desc">Скрывает noyze, когда проигрывается полноэкранное медиа (например, YouTube)</string>
+    <string name="theme_specific">Настройки темы</string>
+    <string name="camera_hide">Скрывать во время камеры</string>
+    <string name="camera_hide_desc">Позволяет использовать кнопки громкости как кнопку затвора камеры</string>
+    <string name="bar_height">Высота панели</string>
+    <string name="bar_height_desc">Высота панели громкости в пикселях</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>Запуск/ пауза</item>
+        <item>Следующий</item>
+        <item>Предыдущий</item>
+        <item>Остановить</item>
+    </string-array>
+    <string name="play_pause">Запуск/ пауза</string>
+    <string name="previous">Предыдущий</string>
+    <string name="next">Следующий</string>
+
+    <!-- Equalizer -->
+    <string name="bass_boost">Усиление басов</string>
+    <string name="virtualizer">Виртуалайзер</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Ярлык</string>
+    <string name="pref_shortcut_default">(По умолчанию)</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Добро пожаловать в noyze!</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_done_caps">Завершить</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Панель громкости</string>
+    <string-array name="theme_titles">
+        <item>Статус бар</item>
+        <item>Drop</item>
+        <!-- <item>Статус бар+</item> -->
+        <item>Windows Phone</item>
+        <item>Heads Up</item>
+        <item>Paranoid</item>
+        <item>Панель громкости</item>
+        <item>Blackberry</item>
+        <item>MIUI V5</item>
+        <item>Apple iOS</item>
+        <item>Extended Controls</item>
+        <item>Невидимая</item>
+    </string-array>
+
+    <string-array name="timeout_list">
+        <item>500ms</item>
+        <item>1 секунды</item>
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
+        <item>5 секунды</item>
+        <item>10 секунды</item>
+        <item>30 секунды</item>
+        <item>никогда</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>По умолчанию</item>
+        <item>звонок</item>
+        <item>Без звука</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">без звука</string>
+    <string name="silent_c">Без звука</string>
+    <string name="mute_c">Без звука</string>
+    <string name="vibrate_ring">вибрация + звонок</string>
+    <string name="vibrate">вибрация</string>
+    <string name="vibrate_c">Вибрация</string>
+    <string name="ring">звонок</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Звонок</string>
+    <!-- Title of the dialog where the user is adjusting the music volume_3 -->
+    <string name="volume_music">Медиа</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Проигрывание через Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Выбран рингтон без звука</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">Разговор</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Разговор через Bluetooth</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for alarms -->
+    <string name="volume_alarm">Будильник</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Уведомления</string>
+    <!-- Title of the dialog where the user is adjusting the general audio volume_3 -->
+    <string name="volume_unknown">Громкость</string>
+
+    <!-- Content description for ringer volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_ringer">Звонок</string>
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Разговор</string>
+    <!-- Content description for media volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_media">Медиа</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Уведомления</string>
+    <!-- Content description for master volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_master">Единый</string>
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Удаленная медиа</string>
+    
+    <!-- 9/5/2014 -->
+    <string name="foreground_notif_desc">Для удобства и стабильности</string>
+    <string name="tap_configure">Нажмите для отображения</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Отключить кнопки</string>
+    <string name="disable_button_desc">Для сломанных кнопок</string>
+    <string-array name="disable_button_options">
+        <item>Никакие</item>
+        <item>Увеличение громкости</item>
+        <item>Уменьшение громкости</item>
+        <item>Обе</item>
+        <item>Lockscreen</item>
+    </string-array>
+
+    <string-array name="stream_options">
+        <item>Никакие</item>
+        <item>Медиа</item>
+        <item>Медиа</item>
+        <item>Уведомления</item>
+        <item>Звонок</item>
+    </string-array>
+
+    <!-- 9/14/2014 -->
+    <string name="open_panel">открыть панель громкости</string>
+
+    <!-- 9/12/2014 -->
+    <string name="safe_volume">Безопасный уровень громкости</string>
+
+    <!-- 9/13/2014 -->
+    <string name="stretch_title">Растягивать по ширине экрана</string>
+    <string name="stretch_desc"></string>
+    <string name="stream_title">Регулировать только:</string>
+    <string name="stream_desc">Управлять только выбранным типом звуков</string>
+
+</resources>

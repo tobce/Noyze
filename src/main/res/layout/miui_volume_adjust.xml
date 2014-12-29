@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:miui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:persistentDrawingCache="animation|scrolling"
+    android:descendantFocusability="afterDescendants"
+    android:foregroundGravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@id/visible_panel"
+            android:baselineAligned="false"
+            android:background="@drawable/v5_ic_audio_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:src="@drawable/v5_ic_audio_ring_notif_mute"
+                tools:src="@drawable/v5_ic_audio_ring_notif_mute"
+                android:background="?android:selectableItemBackground"
+                android:contentDescription="@string/volume_unknown"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/stream_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:baselineAligned="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="9.0sp"
+                    tools:text="Ringer"
+                    android:textColor="@color/v5_volume_panel_text_color"
+                    android:id="@id/streamName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/divider"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/v5_ic_audio_divider" />
+
+                <ImageView
+                    android:contentDescription="@string/volume_music"
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/v5_ic_audio_headset"
+                    android:id="@id/v5_volume_headset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <miui.v5.widget.CircleProgressView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@android:id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            miui:foreground="@drawable/v5_ic_audio_progress" />
+
+    </FrameLayout>
+
+</FrameLayout>

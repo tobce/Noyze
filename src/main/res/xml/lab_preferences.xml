@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <me.barrasso.android.volume.ui.PreferenceColorCategory
+        app:textColor="@color/noyze_primary_dark"
+        app:textInAllCaps="true"
+        android:title="@string/labs_title">
+
+        <me.barrasso.android.volume.ui.SwitchCompatPreference
+            android:icon="@drawable/ic_audio_notification_pm"
+            android:key="service_foreground"
+            android:defaultValue="false"
+            android:widgetLayout="@layout/pref_switch"
+            android:title="@string/foreground_notif"
+            android:summary="@string/foreground_notif_desc" />
+
+        <me.barrasso.android.volume.ui.SwitchCompatPreference
+            android:icon="@drawable/ic_sync_anim_holo"
+            android:key="VolumePanel_oneVolume"
+            android:defaultValue="false"
+            android:widgetLayout="@layout/pref_switch"
+            android:title="@string/master_volume"
+            android:summary="@string/master_volume_desc" />
+
+        <CheckBoxPreference
+            android:icon="@null"
+            android:key="VolumePanel_hideFullscreen"
+            android:defaultValue="false"
+            android:title="@string/smart_hide"
+            android:summary="@string/smart_hide_desc" />
+
+        <CheckBoxPreference
+            android:icon="@null"
+            android:key="VolumePanel_firstReveal"
+            android:defaultValue="false"
+            android:title="@string/first_reveal"
+            android:summary="@string/first_reveal_desc" />
+
+    </me.barrasso.android.volume.ui.PreferenceColorCategory>
+
+</PreferenceScreen>

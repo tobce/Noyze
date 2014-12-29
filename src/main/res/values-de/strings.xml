@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="description">Noyze ist eine anpassbare Lautstärkeleiste für Android mit Themes, Medienwiedergabe-Steuerung, und viel mehr!</string>
+
+    <string name="accessibility_service_label">Noyze Dienst</string>
+    <string name="accessibility_service_description">Eingabehilfen erlauben Noyze, die Lautstärketasten zu benutzen.
+        Die einzigen Informationn, die benötigt werden, um die Lautstärkeleiste neu anzulegen, werden verarbeitet, ohne dass Informationen gespeichert oder geteilt werden.</string>
+    <string name="accessibility_dialog_title">Eingabehilfen</string>
+    <string name="accessibility_dialog_description">Noyze muss in Einstellungen > Eingabehilfen aktiviert werden, damit Sie die Lautstärketasten benutzen können.</string>
+    <string name="accessibility_dialog_description_on">Noyze kann nur in Settings > Eingabehilfen angezeigt werden.</string>
+    <string name="accessibility_error">Kann nicht geöffnet werden: Gehen Sie zu Einstellungen > Eingabehilfen</string>
+    <string name="changelog_title">Was gibt es neues</string>
+    <string name="changelog_desc">Updates und Versionsverlauf</string>
+
+    <string name="notification_dialog_title">Benachrichtigungszugriff</string>
+    <string name="notification_dialog_description">Benachrichtigungszugriff gibt Noyze mehr Informationen darüber, welche Musik gespielt wird.
+        Dies kann nur in Einstellungen > Sicherheit > Benachrichtigungszugriff aktiviert werden.</string>
+    <string name="notification_dialog_description_on">Benachrichtigungszugriff kann nur in Einstellungen > Sicherheit > Benachrichtigungszugriff deaktiviert werden.</string>
+    <string name="notification_error">Kann nicht geöffnet werden: Gehen Sie zu Einstellungen > Sicherheit > Benachrichtigungszugriff</string>
+    <string name="inapp_error">Google Play In-App Käufe sind nicht erhältlich.</string>
+
+    <string name="expand">Erweitern</string>
+    <string name="select">Auswählen</string>
+    <string name="selected">Ausgewählt</string>
+    <string name="foreground_notif">Benachrichtigung</string>
+    <string name="transparency">Transparenz</string>
+    <string name="go_pro">Jetzt auf Noyze Pro umsteigen</string>
+
+    <string name="take_me">Nimm mich</string>
+    <string name="interface_settings">Aussehen und Handhabung</string>
+    <string name="interface_settings_desc">Themen und visuelle Einstellungen</string>
+    <string name="media_settings">Audio und Medien</string>
+    <string name="media_settings_desc">Lautstärkestuerung &amp; Medienwiedergabe</string>
+
+    <string name="theme_desc">Wählen Sie zwischen einer Vielzahl von Themes</string>
+    <string name="timeout">Zeitabschaltung</string>
+    <string name="timeout_desc">Zeit in Sekunden, bis die Leiste ausgeblendet wird</string>
+    <string name="music_app">Standard Musik App</string>
+    <string name="music_app_desc">Zum Fall, dass Noyze nicht erkennt, welche App die Musik spielt</string>
+    <string name="about_settings">Über</string>
+    <string name="about_noyze">Über Noyze</string>
+    <string name="master_volume">Master Lautstärke</string>
+    <string name="master_volume_desc">Viele Töne, eine Lautstärke</string>
+    <string name="volume_change">Lautstärke Anpassungssound</string>
+    <string name="volume_change_desc">Sound abspielen, wenn Lautstärke verändert wird</string>
+
+    <string name="title_shortcuts">Verknüpfungen</string>
+    <string name="media_shortcut">Medien-Steuerung</string>
+    <string name="color">Farbe</string>
+
+    <string name="foreground_color">Vordergrundfarbe</string>
+    <string name="foreground_color_desc">Wählen Sie eine Vordergrundfarbe</string>
+    <string name="background_color">Hintergrundfarbe</string>
+    <string name="background_color_desc">Wählen Sie eine Hintergrundfarbe</string>
+    <string name="labs_title">Versuchslabor</string>
+    <string name="labs_desc">Experimentelle Eigenschaften &amp; Verbesserungen</string>
+    <string name="media_playback_alt">Fernbedienung</string>
+    <string name="media_playback_alt_desc">\"Benachrichtigungszugriff\" aktivieren für verbesserte Medien-Steuerung</string>
+    <string name="advanced_title">Erweitert</string>
+    <string name="anonymous_title">Helfen Sie, Noyze zu verbessern</string>
+    <string name="anonymous_desc">Nutzerstatistik senden, um Noyze zu verbessern</string>
+    <string name="seek_title">Lautstärke Schieberegler</string>
+    <string name="seek_desc">Lautstärke steuern, indem Sie die Fortschrittsleiste ziehen</string>
+    <string name="no_longpress_title">Langen Tastendruck ignorieren</string>
+    <string name="no_longpress_desc">Verbessert Kompatibilität mit Screenshots</string>
+    <string name="album_art">Albumcover</string>
+    <string name="say_thanks">Danke sagen</string>
+    <string name="say_thanks_desc">Wenn Ihnen Noyze gefällt, kommentieren Sie es bitte im Play Store</string>
+    <string name="long_press_up">Lange drücken, um Lautstärke zu erhöhen</string>
+    <string name="long_press_down">Lange drücken, um Lautstärke zu senken</string>
+    <string name="long_press_desc">Wählen Sie aus, um eine App oder Verknüpfung zu starten</string>
+    <string name="smart_hide">Medienüberlagerung</string>
+    <string name="smart_hide_desc">Ausblenden für Videos &amp; Spiele (z.B. YouTube)</string>
+    <string name="theme_specific">THEME-SPEZIFISCH</string>
+    <string name="camera_hide">Deaktivieren für Kamera</string>
+    <string name="camera_hide_desc">Verhindert, dass Noyze Lautstärketasten als Kameraauslöser beeinträchtigt</string>
+    <string name="bar_height">Leistenhöhe</string>
+    <string name="bar_height_desc">Höhe des Lautstärkebalken, in Pixeln</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>Wiedergabe/ Pause</item>
+        <item>Nächste</item>
+        <item>Vorige</item>
+        <item>Stop</item>
+    </string-array>
+    <string name="play_pause">Wiedergabe/ Pause</string>
+    <string name="previous">Vorige</string>
+    <string name="next">Nächste</string>
+
+    <!-- Equalizer -->
+    <string name="bass_boost">Bass Verstärker</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Verknüpfung</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Willkommen zu Noyze</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="menu_done_caps">Erledigt</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Lautstärkeleiste</string>
+    <string-array name="theme_titles">
+        <item>Statusleiste</item>
+        <item>Auswahlmenü</item>
+        <!-- <item>Statusleiste+</item> -->
+        <item>Windows Phone</item>
+        <item>Head-up Display</item>
+        <item>Paranoid</item>
+        <item>Lautstärkebalken</item>
+        <item>Blackberry</item>
+        <item>MIUI V5</item>
+        <item>Apple iOS</item>
+        <item>Erweiterte Steuerung</item>
+        <item>Unsichtbar</item>
+    </string-array>
+
+    <string-array name="timeout_list">
+        <item>500 ms</item>
+        <item>1 Sekunden</item>
+        <item>2 Sekunden</item>
+        <item>3 Sekunden</item>
+        <item>4 Sekunden</item>
+        <item>5 Sekunden</item>
+        <item>10 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>Nie</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>Standard</item>
+        <item>Klingeln</item>
+        <item>Leise</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">Leise</string>
+    <string name="silent_c">Leise</string>
+    <string name="mute_c">Stumm</string>
+    <string name="vibrate_ring">Vibrieren + klingeln</string>
+    <string name="vibrate">Vibrieren</string>
+    <string name="vibrate_c">Vibrieren</string>
+    <string name="ring">Klingeln</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Debug Log senden</string>
+    <string name="send_logs_chooser_title">Logs senden mithilfe von</string>
+    <string name="send_logs_desc">Einen Fehler melden &amp; einen Debug Log senden</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Klingelton</string>
+    <!-- Title of the dialog where the user is adjusting the music volume_3 -->
+    <string name="volume_music">Medienlautstärke</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Wiedergabe mittels Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Leiser Klingelton ausgewählt</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">Eingehender Anruf</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Bluetooth eingehender Anruf</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for alarms -->
+    <string name="volume_alarm">Wecker</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Benachrichtigung</string>
+    <!-- Title of the dialog where the user is adjusting the general audio volume_3 -->
+    <string name="volume_unknown">Lautstärke</string>
+
+    <!-- Content description for ringer volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_ringer">Klingelton</string>
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Anruf</string>
+    <!-- Content description for media volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_media">Medien</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Benachrichtigung</string>
+    
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Remotemedien</string>
+
+          <!-- The following string name didn't exist in the German XML, I've added it - Sven -->
+            <!-- Zen Modes -->
+    <string name="zen_mode_all">ALLE</string>
+    <string name="zen_mode_none">KEINE</string>
+    <string name="zen_mode_priority">PRIORITÄT</string>
+
+
+    <string name="foreground_notif_desc">Für mehr Komfort und Stabilität</string>
+    <string name="tap_configure">Anzeigen durch antippen</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Tasten deaktivieren</string>
+    <string name="disable_button_desc">Ideal für kaputte oder klemmende Tasten</string>
+    <string-array name="disable_button_options">
+        <item>Keine</item>
+        <item>Lauter</item>
+        <item>Leiser</item>
+        <item>Beides</item>
+        <item>Bildschirmsperre</item>
+    </string-array>
+
+    <!-- 9/12/2014 -->
+    <string name="safe_volume">Sichere Lautstärke</string>
+
+    <!-- 9/13/2014 -->
+    <string name="stretch_title">Bildschirmanpassung</string>
+    <string name="stretch_desc">Leiste an Bildschirmgröße anpassen</string>
+    <string name="stream_title">Lautstärkequelle</string>
+    <string name="stream_desc">Lautstärke-Steuerung auf einen Typ festlegen</string>
+
+    <string-array name="stream_options">
+        <item>Keine</item>
+        <item>Wecker</item>
+        <item>Medien</item>
+        <item>Benachrichtigung</item>
+        <item>Klingelton</item>
+    </string-array>
+
+    <!-- 9/14/2014 -->
+    <string name="open_panel">Öffne Lautstärkeleiste</string>
+
+        <!-- Everything below didn't yet exist in the German XML, I've added it - Sven -->
+        
+    <!-- 9/20/2014 -->
+    <string name="blacklist">Negativliste</string>
+    <string name="blacklist_desc">Deaktiviere Noyze für bestimmte Apps</string>
+
+    <string name="link_ring_notif">Lautstärke kombinieren</string>
+    <string name="link_ring_notif_desc">Verknüpfe Lautstärke für Benachrichtigung &amp; Klingelton</string>
+
+    <!-- 9/28/14 -->
+    <string name="about_google_desc">Trete der Noyze Community auf Google+ bei</string>
+    <string name="url_error">Fehler beim öffnen der Webseite</string>
+    <string name="permission_error">Noyze hat keine Genehmigung, diese Aktion auszuführen</string>
+
+    <!-- 10/5/14 -->
+    <string name="apply">Anwenden</string>
+
+    <!-- 10/12/2014 -->
+    <string name="thanks_rating">Danke für die Bewertung von Noyze!</string>
+
+    <!-- 12/15/2014 -->
+    <string name="tertiary_color">Text/Icon-Farbe</string>
+    <string name="tertiary_color_desc">Wählen Sie eine Farbe für Text und Icons</string>
+    <string name="auto_expand">Automatisch erweitert</string>
+    <string name="auto_expand_desc">Zeige die Lautstärkeleiste immer erweitert</string>
+    <string name="first_reveal">Anzeigen beim ersten Tastendruck</string>
+    <string name="first_reveal_desc">Die Lautstärke nicht ändern, wenn die Taste erstmalig gedrückt wird</string>
+
+
+</resources>

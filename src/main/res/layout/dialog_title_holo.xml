@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+
+This is an optimized layout for a screen, with the minimum set of features enabled.
+-->
+<LinearLayout
+	android:background="@drawable/dialog_full_holo_dark"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:persistentDrawingCache="animation|scrolling"
+	android:descendantFocusability="afterDescendants"
+    android:fitsSystemWindows="true">
+    <LinearLayout android:id="@id/title_template"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|left"
+            android:minHeight="@dimen/alert_dialog_title_height"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip">
+            <ImageView android:id="@id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dip"
+                android:paddingTop="8dip"
+                android:paddingLeft="8dip"
+                android:src="@drawable/ic_launcher" />
+			<com.android.internal.widget.DialogTitle android:id="@android:id/title"
+				style="@style/DialogWindowTitleHolo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="@dimen/alert_dialog_title_height"
+				android:paddingTop="8dip"
+				android:paddingRight="16dip"
+				android:gravity="center_vertical|left"
+				android:focusable="false" />
+	</LinearLayout>
+	<View android:id="@id/titleDivider"
+			android:layout_width="match_parent"
+			android:layout_height="2dip"
+			android:layout_marginLeft="8dip"
+			android:layout_marginRight="8dip"
+			android:background="@color/holo_blue_light"
+			android:focusable="true" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@id/contentPanel"
+        android:foreground="@drawable/ab_solid_shadow_holo">
+        <ScrollView android:id="@id/scrollView"
+        	android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dip"
+            android:layout_marginBottom="12dip"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="10dip"
+            android:overScrollMode="ifContentScrolls">
+            <TextView android:id="@android:id/message"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" />
+        </ScrollView>
+        <FrameLayout android:id="@android:id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

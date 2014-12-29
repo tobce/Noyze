@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes">
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_anonymizeIp">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="me.barrasso.android.volume.VolumeAccessibilityService">
+        Volume Service
+    </screenName>
+    <screenName name="me.barrasso.android.volume.MediaControllerService">
+        Remote Control
+    </screenName>
+    <screenName name="me.barrasso.android.volume.activities.ConfigurationActivity">
+        Settings
+    </screenName>
+    <screenName name="me.barrasso.android.volume.activities.MediaShortcutActivity">
+        Media Shortcuts
+    </screenName>
+    <screenName name="me.barrasso.android.volume.activities.MediaControlActivity">
+        Media Control
+    </screenName>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-XXXXXXXX-0</string>
+</resources>

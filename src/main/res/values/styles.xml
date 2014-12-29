@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeBase" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/AppThemeBase">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="circularProgressBarStyle">@style/CircularProgressBar</item>
+        <item name="colorPrimary">@color/noyze_primary</item>
+        <item name="colorPrimaryDark">@color/noyze_primary_dark</item>
+        <item name="colorAccent">@color/noyze_accent</item>
+    </style>
+
+    <style name="DarkSwitch">
+        <item name="colorSwitchThumbNormal">@color/noyze_accent</item>
+        <item name="colorControlActivated">@color/noyze_primary_dark</item>
+    </style>
+
+    <style name="AppThemeIconless" parent="@style/AppTheme">
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="AboutTheme" parent="@style/AppThemeIconless">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppWallpaperTheme" parent="android:Theme.DeviceDefault.Wallpaper">
+        <item name="circularProgressBarStyle">@style/CircularProgressBar</item>
+    </style>
+
+    <style name="DialogWallpaperTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="TextAppearanceDialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+
+    <style name="DialogWindowTitleHolo">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearanceDialogWindowTitle</item>
+    </style>
+
+    <!-- MOTO BLUR Fix -->
+    <style name="FixedListView" parent="@android:style/Widget.ListView">
+        <item name="android:overScrollFooter">@null</item>
+    </style>
+
+    <style name="HeadsUp">
+        <item name="android:windowEnterAnimation">@anim/heads_up_enter</item>
+        <item name="android:windowExitAnimation">@anim/heads_up_exit</item>
+    </style>
+
+    <style name="CircularProgressBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">12dp</item>
+        <item name="progress" format="float">0.1</item>
+        <item name="progress_color">@android:color/holo_blue_bright</item>
+        <item name="progress_background_color">@android:color/darker_gray</item>
+        <item name="marker_visible">false</item>
+        <item name="thumb_visible">false</item>
+    </style>
+
+</resources>

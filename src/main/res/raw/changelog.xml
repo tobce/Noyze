@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <changelogversion versionName="Aspen 1.5.2" changeDate="Dec 29, 2014">
+        <changelogimprovement>Noyze is now free and open source!</changelogimprovement>
+        <changelogtext>Improved German translation by Sven Reichelt</changelogtext>
+        <changelogbug>[b]FIXED[/b] several crashes and bugs</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.5.1" changeDate="Dec 21, 2014">
+        <changelogbug>[b]FIXED[/b] a crash on Android 4.4</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.5" changeDate="Dec 21, 2014">
+        <changelogtext>Several themes have been removed to meet the Google Play Developer Program Policies</changelogtext>
+        <changelogimprovement>Material Design</changelogimprovement>
+        <changelogimprovement>Tertiary color option</changelogimprovement>
+        <changelogimprovement>3 and 4 second timeouts</changelogimprovement>
+        <changelogimprovement>reveal on first press</changelogimprovement>
+        <changelogimprovement>[b]PRO[/b] automatically expanded option</changelogimprovement>
+        <changelogbug>[b]FIXED[/b] compatibility with Android 5.0 Lollipop</changelogbug>
+        <changelogbug>[b]FIXED[/b] immediately hiding when clicking notification</changelogbug>
+        <changelogbug>[b]FIXED[/b] Drop theme graphic glitch on high-resolution devices</changelogbug>
+        <changelogbug>[b]FIXED[/b] tons of other issues</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.4" changeDate="Oct 15, 2014">
+        <changelogimprovement>[b]PRO[/b] New Drop theme</changelogimprovement>
+        <changelogimprovement>Directly input HEX colors to better match system themes</changelogimprovement>
+        <changelogimprovement>Paranoid theme icons now match foreground color</changelogimprovement>
+        <changelogimprovement>Noyze now hides for camera and alarm apps automatically</changelogimprovement>
+        <changelogimprovement>[b]JOIN[/b] the Noyze Google+ Community</changelogimprovement>
+        <changelogimprovement>Slovak translation by ja_som</changelogimprovement>
+        <changelogbug>[b]FIXED[/b] media control bugs on some HTC devices</changelogbug>
+        <changelogbug>[b]FIXED[/b] several crashes</changelogbug>
+        <changelogbug>[b]FIXED[/b] lots of bugs</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.3" changeDate="Sept 22, 2014">
+        <changelogimprovement>color picker has an advanced option</changelogimprovement>
+        <changelogimprovement>some themes now support more features</changelogimprovement>
+        <changelogimprovement>interface settings are only enabled if the current theme supports them</changelogimprovement>
+        <changelogimprovement>option to link notification &amp; ringer volumes (certain devices only)</changelogimprovement>
+        <changelogimprovement>iOS theme animates speaker based on sound level</changelogimprovement>
+        <changelogimprovement>more color options</changelogimprovement>
+        <changelogbug>[b]FIXED[/b] lots of bugs</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.2.3" changeDate="Sept 19, 2014">
+        <changelogimprovement>Norwegian translation by Tobias Christensen Eikeland</changelogimprovement>
+        <changelogimprovement>added 500ms and 1s timeouts</changelogimprovement>
+        <changelogimprovement>added an always-ring volume change mode</changelogimprovement>
+        <changelogtext>several performance improvements and leaks fixed</changelogtext>
+        <changelogbug>[b]FIXED[/b] stretch-to-fit not applying to status bar theme</changelogbug>
+        <changelogbug>[b]FIXED[/b] several crashes &amp; bugs</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.2.2" changeDate="Sept 17, 2014">
+        <changelogbug>[b]FIXED[/b] a crash when changing themes</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.2" changeDate="Sept 17, 2014">
+        <changelogimprovement>added an app blacklist in Advanced</changelogimprovement>
+        <changelogimprovement>Polish translation by Daniel Retkiewicz</changelogimprovement>
+        <changelogbug>[b]FIXED[/b] a memory leak with Google Play Services</changelogbug>
+        <changelogbug>[b]FIXED[/b] several crashes &amp; bugs</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.1" changeDate="Sept 14, 2014">
+        <changelogimprovement>added a stretch-to-fit option</changelogimprovement>
+        <changelogimprovement>added a volume type lock</changelogimprovement>
+        <changelogimprovement>added the ability to disable volume buttons in the lock screen</changelogimprovement>
+        <changelogimprovement>added a shortcut to bring up the volume panel</changelogimprovement>
+        <changelogbug>[b]FIXED[/b] Noyze not allowing volume-as-shutter for Snapchat</changelogbug>
+        <changelogbug>[b]FIXED[/b] several report crashes</changelogbug>
+        <changelogbug>[b]FIXED[/b] misc reported bugs</changelogbug>
+    </changelogversion>
+
+    <changelogversion versionName="Aspen 1.0" changeDate="Sept 12, 2014">
+        <changelogtext>Initial release</changelogtext>
+    </changelogversion>
+
+</changelog>

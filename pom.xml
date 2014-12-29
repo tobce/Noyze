@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>me.barrasso.android.volume</groupId>
+    <artifactId>noyze</artifactId>
+    <packaging>pom</packaging>
+    <name>A</name>
+    <version>1.0</version>
+    <dependencies>
+        <dependency>
+            <artifactId>crouton</artifactId>
+            <version>${crouton.version}</version>
+            <groupId>de.keyboardsurfer.android.widget</groupId>
+        </dependency>
+        <dependency>
+            <groupId>com.larswerkman</groupId>
+            <artifactId>HoloColorPicker</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup</groupId>
+            <artifactId>otto</artifactId>
+            <version>1.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.amlcurran.showcaseview</groupId>
+            <artifactId>library</artifactId>
+            <version>5.0.0</version>
+            <type>apklib</type>
+        </dependency>
+    </dependencies>
+</project>

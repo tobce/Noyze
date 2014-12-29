@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="description">noyze is een aanpasbaar volume paneel voor Android met thema\'s, controls voor het afspelen van media, en nog veel meer!</string>
+
+    <string name="accessibility_service_label">noyze service</string>
+    <string name="accessibility_service_description">Toegankelijkheid staat noyze toe om de volume knoppen te beheren.
+        Alleen informatie dat benodigd is om het volume paneel te creëren wordt verwerkt. Geen enkele informatie wordt opgeslagen of gedeeld met derden.</string>
+    <string name="accessibility_dialog_title">Toegankelijkheid</string>
+    <string name="accessibility_dialog_description">noyze moet geactiveerd zijn in Instellingen > Toegankelijkheid om de volume knoppen te kunnen beheren.</string>
+    <string name="accessibility_dialog_description_on">noyze kan alleen gedeactiveerd worden in Instellingen > Toegankelijkheid.</string>
+    <string name="accessibility_error">Kan niet geopend worden: ga naar Instellingen > Toegankelijkheid</string>
+    <string name="changelog_title">Nieuw</string>
+    <string name="changelog_desc">Update en versie geschiedenis</string>
+
+    <string name="notification_dialog_title">Notificatie toegang</string>
+    <string name="notification_dialog_description">Notificatie toegang geeft noyze informatie betreffende de afspelende muziek.
+        Dit kan alleen gemachtigd worden in Instellingen > Beveiliging > Notificaties.</string>
+    <string name="notification_dialog_description_on">Notificatie toegang kan alleen in Instellingen > Beveiliging > Notificaties worden uitgezet.</string>
+    <string name="notification_error">Kan niet geopend worden: ga naar Instellingen > Beveiliging > Notificaties</string>
+    <string name="inapp_error">Google Play In-App Aankopen Niet Beschikbaar</string>
+
+    <string name="expand">Uitvouwen</string>
+    <string name="select">Selecteer</string>
+    <string name="selected">Geselecteerd</string>
+    <string name="foreground_notif">Notificatie</string>
+    <string name="transparency">Transparantie</string>
+    <string name="go_pro">Ga Pro</string>
+
+    <string name="take_me">Neem me mee</string>
+    <string name="interface_settings">Uitstraling</string>
+    <string name="interface_settings_desc">Visuele instellingen</string>
+    <string name="media_settings">Audio &amp; Media</string>
+    <string name="media_settings_desc">Volume beheer &amp; Media instellingen</string>
+    <string name="theme">Thema</string>
+    <string name="theme_desc">Kies uit een aantal thema\'s</string>
+    <string name="timeout_desc">Automatisch verbergen volume paneel</string>
+    <string name="music_app">Standaard muziek app</string>
+    <string name="music_app_desc">Als noyze niet kan vaststellen welke app muziek afspeelt</string>
+    <string name="about_settings">Over</string>
+    <string name="about_noyze">Over noyze</string>
+    <string name="master_volume_desc">Voor alle geluiden hetzelfde volume</string>
+    <string name="volume_change">Volume aanpassing feedback</string>
+    <string name="volume_change_desc">Speel een geluid als het volume wordt aangepast</string>
+    <string name="title_shortcuts">Snelkoppelingen</string>
+    <string name="color">Kleur</string>
+    <string name="icon">Icoon</string>
+    <string name="foreground_color">Voorgrond kleur</string>
+    <string name="foreground_color_desc">Kies een kleur voor de voorgrond</string>
+    <string name="background_color">Achtergrond color</string>
+    <string name="background_color_desc">Kies een kleur voor de achtergrond</string>
+    <string name="labs_desc">Experimentele extra\'s &amp; Tweaks</string>
+    <string name="media_playback_alt">Externe Controle</string>
+    <string name="media_playback_alt_desc">Machtig \"Notificatie Toegang\" voor verbeterde media controle</string>
+    <string name="advanced_title">Gevorderd</string>
+    <string name="anonymous_title">Help noyze verbeteren</string>
+    <string name="anonymous_desc">Stuur gebruiks statistieken voor het verbeteren van noyze</string>
+    <string name="seek_desc">Sleep progress bar voor volume</string>
+    <string name="no_longpress_title">Negeer lang indrukken</string>
+    <string name="no_longpress_desc">Noyze negeert lang indrukken voor het maken van screenshots</string>
+    <string name="say_thanks">Bedank de ontwikkelaars!</string>
+    <string name="say_thanks_desc">Ben je blij met met noyze? Laat je horen in de Play Store!</string>
+    <string name="long_press_up">Lang indrukken volume omhoog</string>
+    <string name="long_press_down">Lang indrukken volume omlaag</string>
+    <string name="long_press_desc">Selecteer een app of snelkoppeling om te starten</string>
+    <string name="smart_hide">Verberg voor Media</string>
+    <string name="smart_hide_desc">Verberg voor video\'s &amp; spellen (bijv. Youtube)</string>
+    <string name="theme_specific">THEMA SPECIFIEK</string>
+    <string name="camera_hide">Schakel uit voor camera</string>
+    <string name="camera_hide_desc">Laat noyze overweg kunnen met volume knoppen die voor de camera worden gebruikt</string>
+    <string name="bar_height">Bar hoogte</string>
+    <string name="bar_height_desc">Hoogte van de volume bar, in pixels</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>Speel af/ pauzeer</item>
+        <item>Volgende</item>
+        <item>Vorige</item>
+        <item>Stop</item>
+    </string-array>
+    <string name="play_pause">Speel af/ pauzeer</string>
+    <string name="previous">Vorige</string>
+    <string name="next">Volgende</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Snelkoppeling</string>
+    <string name="pref_shortcut_default">(Standaard)</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Welkom bij noyze</string>
+    <string name="menu_done_caps">KLAAR</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Volume Paneel</string>
+    <string-array name="theme_titles">
+        <item>Status Bar</item>
+        <item>Drop</item>
+        <!-- <item>Status Bar+</item> -->
+        <item>Windows Phone</item>
+        <item>Heads Up</item>
+        <item>Paranoid</item>
+        <item>Volume Bar</item>
+        <item>Blackberry</item>
+        <item>MIUI V5</item>
+        <item>Apple iOS</item>
+        <item>Extended Controls</item>
+        <item>Onzichtbaar</item>
+    </string-array>
+
+    <string-array name="timeout_list">
+        <item>500ms</item>
+        <item>1 seconden</item>
+        <item>2 seconden</item>
+        <item>3 seconden</item>
+        <item>4 seconden</item>
+        <item>5 seconden</item>
+        <item>10 seconden</item>
+        <item>30 seconden</item>
+        <item>Nooit</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>Standaard</item>
+        <item>Bellen</item>
+        <item>Stil</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">stil</string>
+    <string name="silent_c">Stil</string>
+    <string name="mute_c">Dempen</string>
+    <string name="vibrate_ring">trillen + bellen</string>
+    <string name="vibrate">trillen</string>
+    <string name="vibrate_c">Trillen</string>
+    <string name="ring">bellen</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Stuur debug log</string>
+    <string name="send_logs_chooser_title">Stuur logs met</string>
+    <string name="send_logs_desc">Raporteer een fout, en stuur een debug log</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Bellen</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Afspelen via Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Stille ringtone gedetecteerd</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">In-gesprek</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Bluetooth in-gesprek</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Notificatie</string>
+
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Gesprek</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Notificatie</string>
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Externe Media</string>
+
+    <!-- 9/5/2014 -->
+    <string name="foreground_notif_desc">Laat een notificatie zien om stabiliteit te verbeteren</string>
+    <string name="tap_configure">Raak aan om te configureren</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Schakel knoppen uit</string>
+    <string name="disable_button_desc">Als de volume knoppen niet naar behoren werken</string>
+    <string-array name="disable_button_options">
+        <item>Geen</item>
+        <item>Volume omhoog</item>
+        <item>Volume omlaag</item>
+        <item>Allebei</item>
+        <item>Lockscreen</item>
+    </string-array>
+
+    <string-array name="stream_options">
+        <item>Geen</item>
+        <item>Alarm</item>
+        <item>Music</item>
+        <item>Notificatie</item>
+        <item>Bellen</item>
+    </string-array>
+
+</resources>

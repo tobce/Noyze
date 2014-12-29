@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- Material Design -->
+    <color name="noyze_accent">#C5CAE9</color>
+    <color name="noyze_primary">#303F9F</color>
+    <color name="noyze_primary_dark">#1A237E</color>
+
+	<!-- A light Holo shade of blue -->
+    <color name="holo_blue_light" translatable="false">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light" translatable="false">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light" translatable="false">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark" translatable="false">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark" translatable="false">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark" translatable="false">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple" translatable="false">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light" translatable="false">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark" translatable="false">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright" translatable="false">#ff00ddff</color>
+
+    <color name="holo_blue_light_opaque" translatable="false">#AA33b5e5</color>
+
+    <color name="system_primary_color">#ff263238</color><!-- blue grey 900 -->
+    <color name="action_bar_dark" translatable="false">#222222</color>
+    <color name="action_background" translatable="false">#64000000</color>
+    <color name="heads_up_background_color" translatable="false">#fbfbfb</color>
+    <drawable name="heads_up_background" translatable="false">#fbfbfb</drawable>
+    <drawable name="heads_up_notification_bg_pressed" translatable="false">#ff33B5E5</drawable>
+
+    <!-- Windows Phone -->
+    <color name="windows_phone_theme_dark" translatable="false">#FF1F1F1F</color>
+    <color name="windows_phone_theme_light" translatable="false">#FFD2D2D2</color>
+
+    <!-- iOS & BB -->
+    <color name="opaque_white" translatable="false">#99FFFFFF</color>
+    <color name="opaque_black" translatable="false">#AA000000</color>
+    <color name="bb_opaque_black" translatable="false">#DD191919</color>
+    <color name="bb_icons" translatable="false">#dbdbdb</color>
+    <color name="v5_volume_panel_text_color" translatable="false">#f8ffff</color>
+
+    <!-- Accent Colors -->
+    <color name="theme_grey" translatable="false">#ff969696</color>
+    <color name="theme_light_grey" translatable="false">#ffdedfde</color>
+    <color name="theme_dark_grey" translatable="false">#ff292929</color>
+    <color name="theme_magenta" translatable="false">#ffff0094</color>
+    <color name="theme_purple" translatable="false">#ffa500ff</color>
+    <color name="theme_teal" translatable="false">#ff114342</color>
+    <color name="theme_lime" translatable="false">#ff8cbe21</color>
+    <color name="theme_brown" translatable="false">#ffa55100</color>
+    <color name="theme_pink" translatable="false">#ffe771bd</color>
+    <color name="theme_orange" translatable="false">#fff79608</color>
+    <color name="theme_blue" translatable="false">#ff18a2e7</color>
+    <color name="theme_red" translatable="false">#ffe71400</color>
+    <color name="theme_green" translatable="false">#ff319a31</color>
+
+    <color name="wp_volume_index" translatable="false">#f8f8f8</color>
+    <color name="wp_volume_max" translatable="false">#767676</color>
+    <color name="wp_volume_text" translatable="false">#aaaaaa</color>
+
+    <!-- PA new volume_3 panel style background -->
+    <color name="volume_panel_bg" translatable="false">#cc111111</color>
+    <color name="pa_volume_scrubber" translatable="false">#cb803d</color>
+
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#33b5e5</item>
+        <item>#aa66cc</item>
+        <item>#99cc00</item>
+        <item>#ffbb33</item>
+        <item>#ff4444</item>
+        <item>#0099cc</item>
+        <item>#9933cc</item>
+        <item>#669900</item>
+        <item>#ff8800</item>
+        <item>#cc0000</item>
+        <item>#ffffff</item>
+        <item>#eeeeee</item>
+        <item>#cccccc</item>
+        <item>#888888</item>
+    </string-array>
+
+    <!-- TONS OF COLORZ!!! -->
+    <string-array name="super_color_choice_values" translatable="false">
+        <item>#33b5e5</item>
+        <item>#aa66cc</item>
+        <item>#99cc00</item>
+        <item>#ffbb33</item>
+        <item>#ff4444</item>
+        <item>#cb803d</item>
+        <item>#0099cc</item>
+        <item>#9933cc</item>
+        <item>#669900</item>
+        <item>#ff8800</item>
+        <item>#cc0000</item>
+        <item>#ffffff</item>
+        <item>#000000</item>
+        <item>#eeeeee</item>
+        <item>#cccccc</item>
+        <item>#888888</item>
+        <item>#1F1F1F</item>
+        <item>#D2D2D2</item>
+        <item>#969696</item>
+        <item>#ff0094</item>
+        <item>#a500ff</item>
+        <item>#114342</item>
+        <item>#8cbe21</item>
+        <item>#a55100</item>
+        <item>#e771bd</item>
+        <item>#f79608</item>
+        <item>#18a2e7</item>
+        <item>#e71400</item>
+        <item>#319a31</item>
+        <item>#fbfbfb</item>
+        <item>#98bc4b</item>
+        <item>#88E2CA</item>
+        <item>#DB133B</item>
+        <item>#372447</item>
+    </string-array>
+
+    <color name="advanced_background">#372447</color>
+
+    <!-- VPI -->
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+		
+	<!-- Done -->
+	<item
+		android:id="@id/menu_done"
+		android:title="@string/menu_done_caps"
+		android:visible="false"
+		android:showAsAction="ifRoom|withText" />
+		
+</menu>

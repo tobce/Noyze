@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">false</bool>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="help_vertical_margin">16dp</dimen>
+
+    <!-- Adapted to be the width of the screen, usually -->
+    <dimen name="volume_panel_screen_width">320.0dip</dimen>
+
+    <!-- radius of the corners of the material rounded rect background -->
+    <dimen name="notification_material_rounded_rect_radius">2dp</dimen>
+
+    <!-- Volume panel y offset -->
+    <dimen name="volume_panel_top">80dp</dimen>
+    <dimen name="l_volume_panel_top">16.0dip</dimen>
+    <dimen name="volume_panel_width">300.0dip</dimen>
+    <dimen name="volume_panel_z">3.0dip</dimen>
+    <dimen name="heads_up_window_height">250.0dip</dimen>
+    <dimen name="zen_mode_dialog_width">320.0dip</dimen>
+    <dimen name="qs_tile_height">84.0dip</dimen>
+    <dimen name="qs_tile_padding">8.0dip</dimen>
+    <dimen name="qs_tile_icon_size">28.0dip</dimen>
+    <dimen name="qs_tile_text_size">12.0sp</dimen>
+    <dimen name="qs_tile_divider_height">1.0dip</dimen>
+    <dimen name="qs_panel_padding">16.0dip</dimen>
+    <dimen name="qs_dual_tile_height">109.0dip</dimen>
+    <dimen name="qs_dual_tile_padding">12.0dip</dimen>
+    <dimen name="qs_peek_height">8.0dip</dimen>
+    <dimen name="zen_mode_condition_detail_button_padding">8.0dip</dimen>
+    <dimen name="zen_mode_condition_height">48.0dip</dimen>
+    
+    <dimen name="bg_tooltip_padding_top">4dp</dimen>
+	<dimen name="bg_tooltip_padding_left">5dp</dimen>
+	<dimen name="bg_tooltip_padding_right">5dp</dimen>
+	<dimen name="bg_tooltip_padding_bottom">10dp</dimen>
+	<dimen name="bg_tooltip_pointer_padding_bottom">8dp</dimen>
+	<dimen name="tooltip_text_size">16dp</dimen>
+    <dimen name="help_text_size">16sp</dimen>
+	
+	<!-- Dialog title height -->
+    <dimen name="alert_dialog_title_height">64dip</dimen>
+    <!-- Dialog button bar height -->
+    <dimen name="alert_dialog_button_bar_height">48dip</dimen>
+    
+    <!-- The duration (in milliseconds) of the activity open/close and fragment open/close animations. -->
+    <integer name="config_activityShortDur">150</integer>
+    <integer name="config_activityDefaultDur">220</integer>
+
+    <dimen name="drag_grip_ridge_size">4dp</dimen>
+    <dimen name="drag_grip_ridge_gap">2dp</dimen>
+
+    <dimen name="list_fading_edge_length">8dp</dimen>
+
+    <dimen name="color_grid_item_size">48dp</dimen>
+    <dimen name="color_grid_circle_size">36dp</dimen>
+    <dimen name="color_grid_extra_padding">32dp</dimen>
+
+    <dimen name="max_menu_width">420dp</dimen>
+
+    <dimen name="volume_bar_height">2dp</dimen>
+    <dimen name="circle_panel">124dp</dimen>
+    <dimen name="heads_up_row">360dp</dimen>
+
+    <!-- The standard size (both barHeight and height) of an application icon that
+         will be displayed in the app launcher and elsewhere. -->
+    <dimen name="app_icon_size">48dip</dimen>
+    <dimen name="app_icon_size_bigger">72dip</dimen>
+
+    <!-- The barHeight of the notification panel window: match_parent below sw600dp -->
+    <dimen name="notification_panel_width">-1dp</dimen>
+</resources>

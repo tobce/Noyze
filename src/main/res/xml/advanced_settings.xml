@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <me.barrasso.android.volume.ui.PreferenceColorCategory
+        app:textColor="@color/noyze_primary_dark"
+        app:textInAllCaps="true"
+        android:title="@string/advanced_title">
+
+        <com.google.android.apps.dashclock.configuration.PackageChooserPreference
+            android:icon="@null"
+            android:key="VolumeService_blacklist"
+            android:title="@string/blacklist"
+            android:summary="@string/blacklist_desc" />
+
+        <ListPreference
+            android:icon="@null"
+            android:key="VolumeService_disabledButtons"
+            android:entries="@array/disable_button_options"
+            android:entryValues="@array/disable_button_values"
+            android:defaultValue="0"
+            android:title="@string/disable_button"
+            android:summary="@string/disable_button_desc" />
+
+        <CheckBoxPreference
+            android:icon="@null"
+            android:key="VolumePanel_noLongPress"
+            android:defaultValue="true"
+            android:title="@string/no_longpress_title"
+            android:summary="@string/no_longpress_desc" />
+
+        <!-- <Preference
+            android:icon="@null"
+            android:key="debug_log"
+            android:title="@string/send_logs"
+            android:summary="@string/send_logs_desc" /> -->
+
+        <Preference
+            android:icon="@null"
+            android:key="changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_desc" />
+
+        <Preference
+            android:icon="@null"
+            android:key="version"
+            android:title="@string/version_title" />
+
+    </me.barrasso.android.volume.ui.PreferenceColorCategory>
+
+</PreferenceScreen>

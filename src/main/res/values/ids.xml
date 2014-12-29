@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="action_send_logs" type="id" />
+    <item name="action_switch" type="id" />
+    <item name="switch_view" type="id" />
+    <item name="menu_done" type="id" />
+    <item name="help_text" type="id" />
+    <item name="contentHolder" type="id" />
+    <item name="divider" type="id"/>
+    <item name="action_ok" type="id" />
+    <item name="header_about" type="id" />
+    <item name="header_rate" type="id" />
+    <item name="text_progress" type="id" />
+    <item name="album_art" type="id" />
+    <item name="album_art_container" type="id" />
+    <item name="media_container" type="id" />
+    <item name="streamName" type="id" />
+    <item name="expand_button" type="id" />
+    <item name="v5_volume_headset" type="id" />
+    <item name="indicator" type="id" />
+    <item name="color_grid" type="id" />
+    <item name="ribbon" type="id" />
+    <item name="eq_presets" type="id" />
+    <item name="bass_boost" type="id" />
+    <item name="virtualizer" type="id" />
+    <item name="bass_boost_text" type="id" />
+    <item name="virtualizer_text" type="id" />
+    <item name="eq_presets_container" type="id" />
+    <item name="pro_ribbon" type="id" />
+    <item name="header_google_plus" type="id" />
+    <item name="hex" type="id" />
+
+	<!-- Volume Panel -->
+	<item name="volumeSeekbar" type="id"/>
+    <item name="mediaBackward" type="id"/>
+    <item name="mediaPlayPause" type="id"/>
+    <item name="mediaForward" type="id"/>
+    <item name="mediaSilent" type="id"/>
+    <item name="streamIcon" type="id"/>
+    <item name="seekbar" type="id"/>
+    <item name="stream_icon" type="id" />
+    <item name="slider_group" type="id" />
+    <item name="visible_panel" type="id" />
+    <item name="music_panel" type="id" />
+    <item name="ringer_mode" type="id" />
+    <item name="volume_text" type="id" />
+    <item name="track_info" type="id" />
+
+    <item name="media_previous" type="id" />
+    <item name="media_next" type="id" />
+    <item name="media_play_pause" type="id" />
+    <item name="track_artist" type="id" />
+    <item name="track_song" type="id" />
+
+    <!-- Dialog -->
+    <item name="titleDivider" type="id"/>
+    <item name="contentPanel" type="id"/>
+    <item name="parentPanel" type="id"/>
+    <item name="topPanel" type="id"/>
+    <item name="titleDividerTop" type="id"/>
+    <item name="title_template" type="id"/>
+    <item name="alertTitle" type="id"/>
+    <item name="icon" type="id"/>
+    <item name="scrollView" type="id"/>
+    <item name="message" type="id"/>
+    <item name="customPanel" type="id"/>
+    <item name="buttonPanel" type="id"/>
+    <item name="button1" type="id"/>
+    <item name="button2" type="id"/>
+    <item name="button3" type="id"/>
+
+    <item name="color_picker" type="id"/>
+    <item name="svbar" type="id"/>
+    <item name="opacitybar" type="id"/>
+</resources>

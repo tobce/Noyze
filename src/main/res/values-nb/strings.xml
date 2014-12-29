@@ -1,0 +1,224 @@
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="accessibility_service_label">noyzetjeneste</string>
+    <string name="accessibility_service_description">Tilgjengelighet gir noyze tilgang til å kontollere volumknappene.
+        Only info needed to recreate the volume panel is processed, and absolutely none of this info is stored or shared.</string>
+    <string name="accessibility_dialog_title">Tilgjengelighet</string>
+    <string name="accessibility_dialog_description">noyze må være aktivert i Innstillinger &gt; Tilgjengelighet for å styre volumknappene.</string>
+    <string name="accessibility_dialog_description_on">noyze kan bare deaktiveres i Innstillinger &gt; Tilgjengelighet.</string>
+    <string name="accessibility_error">Kunne ikke åpne. Gå til Innstillinger &gt; Tilgjengelighet</string>
+    <string name="changelog_title">Hva er nytt</string>
+    <string name="changelog_desc">Oppdateringshistorikk</string>
+
+    <string name="notification_dialog_title">Varseltilgang</string>
+    <string name="notification_dialog_description">Varseltilgang gir noyze mer informasjon om hva slags musikk som spilles.
+        Dette kan bare bli aktivert i Instillinger &gt; Sikkerhet &gt; Varseltilgang.</string>
+    <string name="notification_dialog_description_on">Varseltilgang kan bare deaktiveres i Innstillinger &gt; Sikkerhet &gt; Varseltilgang.</string>
+    <string name="notification_error">Kunne ikke åpne. Gå til Innstillinger &gt; Sikkerhet &gt; Varseltilgang</string>
+    <string name="inapp_error">Google Play In-App Purchases ikke tilgjengelig</string>
+
+    <string name="version_title">Byggnummer</string>
+    <string name="expand">Utvid</string>
+    <string name="select">Velg</string>
+    <string name="selected">Valgt</string>
+    <string name="foreground_notif">Varsel</string>
+    <string name="transparency">Gjennomsiktighet</string>
+	<string name="go_pro">Gå Pro</string>
+
+    <string name="take_me">Ta meg dit</string>
+    <string name="interface_settings">Utseende</string>
+    <string name="interface_settings_desc">Tema og visuelle innstillinger</string>
+    <string name="media_settings">Lyd og media</string>
+    <string name="media_settings_desc">Volumadministrasjon og medieavspilling</string>
+    <string name="theme">Tema</string>
+    <string name="theme_desc">Velg mellom en rekke temaer</string>
+    <string name="timeout">Tidsavbrudd</string>
+    <string name="timeout_desc">Tid i sekunder til å skjule panelet</string>
+    <string name="music_app">Standard musikk-app</string>
+    <string name="music_app_desc">I tilfelle noyze ikke kan bestemme hva som spiller musikk</string>
+    <string name="about_settings">Om</string>
+    <string name="about_noyze">Om noyze</string>
+    <string name="master_volume">Mastervolum</string>
+    <string name="master_volume_desc">Mange lyder, ett volumnivå</string>
+    <string name="volume_change">Volumjusteringslyd</string>
+    <string name="volume_change_desc">Spill av lyd når du justerer volumet</string>
+    <string name="title_apps">Apper</string>
+    <string name="title_shortcuts">Snarveier</string>
+    <string name="media_shortcut">Mediekontroller</string>
+    <string name="color">Farge</string>
+    <string name="icon">Ikon</string>
+    <string name="foreground_color">Forgrunnsfarge</string>
+    <string name="foreground_color_desc">Velg en forgrunnsfarge</string>
+    <string name="background_color">Bakgrunnsfarge</string>
+    <string name="background_color_desc">Velg en bakgrunnsfarge</string>
+    <string name="labs_title">Laboratorium</string>
+    <string name="labs_desc">Eksperimentelle funksjoner</string>
+    <string name="media_playback_alt">Fjernstyr</string>
+    <string name="media_playback_alt_desc">Aktiver \"Varseltilgang\" for forbedret mediekontroll</string>
+    <string name="advanced_title">Avansert</string>
+    <string name="anonymous_title">Bidra til å forbedre noyze</string>
+    <string name="anonymous_desc">Send bruksstatistikk for å forbedre noyze</string>
+    <string name="seek_title">Volumscrubber</string>
+    <string name="seek_desc">Styr volumet ved å dra fremdriftslinjen</string>
+    <string name="no_longpress_title">Ignorer langttrykk</string>
+    <string name="no_longpress_desc">Stopper noyze fra å endre volumet ved skjermbilder</string>
+    <string name="say_thanks">Si takk</string>
+    <string name="say_thanks_desc">Hvis du liker noyze, legg igjen en kommentar på Play Butikk</string>
+    <string name="long_press_up">Langttrykk volum opp</string>
+    <string name="long_press_down">Langttrykk volum ned</string>
+    <string name="long_press_desc">Velg en app eller snarvei til å starte</string>
+    <string name="smart_hide">Mediakappe</string>
+    <string name="smart_hide_desc">Skjul for videoer og spill (f.eks YouTube)</string>
+    <string name="theme_specific">TEMASPESIFIKK</string>
+    <string name="camera_hide">Deaktiver for kamera</string>
+    <string name="camera_hide_desc">Gjør at noyze er deaktivert i kamera</string>
+    <string name="bar_height">Barhøyde</string>
+    <string name="bar_height_desc">Høyde på volumlinjen i piksler</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>Spill av / pause</item>
+        <item>Neste</item>
+        <item>Forrige</item>
+        <item>Stopp</item>
+    </string-array>
+    <string name="play_pause">Spill av / pause</string>
+    <string name="previous">Forrige</string>
+    <string name="next">Neste</string>
+
+    <!-- Equalizer -->
+    <string name="bass_boost">Bassøkning</string>
+    <string name="virtualizer">Virtualizer</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Snarvei</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Velkommen til noyze</string>
+    <string name="menu_help">Hjelp</string>
+    <string name="menu_done_caps">FERDIG</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Volumpanel</string>
+    <string-array name="theme_titles">
+        <item>Statusbar</item>
+        <item>Drop</item>
+        <!-- <item>Statusbar+</item> -->
+        <item>Windows Phone</item>
+        <item>Heads Up</item>
+        <item>Paranoid</item>
+        <item>Volumbar</item>
+        <item>Blackberry</item>
+        <item>MIUI V5</item>
+        <item>Apple iOS</item>
+        <item>Utvidede kontroller</item>
+        <item>Usynlig</item>
+    </string-array>
+
+    <string-array name="timeout_list">
+        <item>500ms</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>4s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>30s</item>
+        <item>Aldri</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>Standard</item>
+        <item>Ring</item>
+        <item>Stille</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">stille</string>
+    <string name="vibrate_ring">vibrering + ring</string>
+    <string name="vibrate">vibrering</string>
+    <string name="vibrate_c">Vibrering</string>
+    <string name="ring">ring</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Send debug-logg</string>
+    <string name="send_logs_chooser_title">Send logger med</string>
+    <string name="send_logs_desc">Rapporter et problem og send en debug-logg</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Ringer</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Spiller gjennom Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Stille ringetone valgt</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">Samtale</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Bluetoothsamtale</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for alarms -->
+    <string name="volume_alarm">Alarmer</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Varsler</string>
+    <!-- Title of the dialog where the user is adjusting the general audio volume_3 -->
+    <string name="volume_unknown">Volum</string>
+
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Ring</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Varsel</string>
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Fjernmedia</string>
+
+    <!-- 9/5/2014 -->
+    <string name="foreground_notif_desc">For bekvemmelighet og stabilitet</string>
+    <string name="tap_configure">Trykk for å vise</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Deaktiver knapper</string>
+    <string name="disable_button_desc">Flott for ødelagte eller fastkjørte knapper</string>
+    <string-array name="disable_button_options">
+        <item>Ingen</item>
+        <item>Volum opp</item>
+        <item>Volum ned</item>
+        <item>Begge</item>
+        <item>Skjermlås</item>
+    </string-array>
+
+    <!-- 9/12/2014 -->
+    <string name="safe_volume">Sikkert volum</string>
+
+    <!-- 9/13/2014 -->
+    <string name="stretch_title">Strekk til å passe</string>
+    <string name="stretch_desc">Strekk til å passe skjermbredden</string>
+    <string name="stream_title">Volumstrøm</string>
+    <string name="stream_desc">Lås volumkontroll til én type</string>
+
+    <!-- DO NOT CHANGE THE ORDER!!! -->
+    <string-array name="stream_options">
+        <item>Ingen</item>
+        <item>Alarmer</item>
+        <item>Musikk</item>
+        <item>Varsler</item>
+        <item>Ringer</item>
+    </string-array>
+
+    <!-- 9/14/2014 -->
+    <string name="open_panel">Åpne volumpanel</string>
+
+    <!-- 9/20/2014 -->
+    <string name="blacklist">Svarteliste</string>
+    <string name="blacklist_desc">Deaktiver noyze i valgte apper</string>
+
+    <string name="link_ring_notif">Koble volumer</string>
+    <string name="link_ring_notif_desc">Koble varslings- og ringevolum</string>
+
+    <!-- 9/28/14 -->
+    <string name="about_google">Google+</string>
+    <string name="about_google_desc">Bli med i Noyze-samfunnet på Google+</string>
+    <string name="url_error">Kunne ikke åpne nettside</string>
+    <string name="permission_error">Noyze har ikke tilgang til å utføre denne operasjonen</string>
+
+    <!-- 10/5/14 -->
+    <string name="apply">Bruk</string>
+
+</resources>

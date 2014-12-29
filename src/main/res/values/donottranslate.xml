@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="config_v19">false</bool>
+
+    <!-- Google Backup Service API Key -->
+    <string name="backup_api_key">AEdPqrEAAAAISKV6M9rnd6Ku6rtg1MlxX5Rud_iOVbi36xz5mw</string>
+    <string name="crashlytics_key">9f5a734c528541218aa3ab0b0b086fce92c0f37a</string>
+    <string name="google_plus_url">https://plus.google.com/communities/112130153614078864555</string>
+
+    <!-- Alarm Clocks! -->
+    <string name="alarm_packages">com.android.alarmclock:com.android.deskclock:com.sec.android.app.clockpackage:com.sonyericsson.alarm:com.htc.android.worldclock:com.motorola.blur.alarmclock:com.lge.clock:com.sonyericsson.organizer:ch.bitspin.timely</string>
+    <string name="hex_placeholder">FF66EE</string>
+    <string name="alphanumerical">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890</string>
+
+    <!-- Time in ms to hide. -->
+    <integer name="volume_panel_timeout_default">5000</integer>
+    <integer name="heads_up_notification_decay">3700</integer>
+    <integer name="heads_up_sensitivity_delay">700</integer>
+
+    <!-- These correspond to class names, DO NOT TRANSLATE! -->
+    <string-array name="theme_list_value" translatable="false">
+        <item>StatusBarVolumePanel</item>
+        <item>UberVolumePanel</item>
+        <!-- <item>StatusBarPlusVolumePanel</item> -->
+        <item>WPVolumePanel</item>
+        <item>HeadsUpVolumePanel</item>
+        <item>ParanoidVolumePanel</item>
+        <item>VolumeBarPanel</item>
+        <item>BlackberryVolumePanel</item>
+        <item>CircleVolumePanel</item>
+        <item>iOSVolumePanel</item>
+        <item>OppoVolumePanel</item>
+        <item>InvisibleVolumePanel</item>
+    </string-array>
+
+    <!-- Images are automatically localized, NO NOT TRANSLATE! -->
+    <integer-array name="theme_images" translatable="false">
+        <item>@drawable/statusbarvolumepanel</item>
+        <item>@drawable/ubervolumepanel</item>
+        <!-- <item>@drawable/statusbarvolumepanel</item> -->
+        <item>@drawable/wpvolumepanel</item>
+        <item>@drawable/headsupvolumepanel</item>
+        <item>@drawable/paranoidvolumepanel</item>
+        <item>@drawable/volumebarpanel</item>
+        <item>@drawable/blackberryvolumepanel</item>
+        <item>@drawable/circlevolumepanel</item>
+        <item>@drawable/iosvolumepanel</item>
+        <item>@drawable/oppovolumepanel</item>
+        <item>@drawable/invisiblevolumepanel</item>
+    </integer-array>
+
+    <integer-array name="stream_icons" translatable="false">
+        <item>@drawable/ic_action_headphones</item>
+        <item>@drawable/ic_audio_alarm</item>
+        <item>@drawable/ic_audio_bt</item>
+        <item>@drawable/ic_audio_notification</item>
+        <item>@drawable/ic_audio_phone</item>
+        <item>@drawable/ic_audio_vol</item>
+    </integer-array>
+
+    <integer-array name="stream_icons_mute" translatable="false">
+        <item>@drawable/ic_action_headphones_mute</item>
+        <item>@drawable/ic_audio_alarm_mute</item>
+        <item>@drawable/ic_audio_bt_mute</item>
+        <item>@drawable/ic_audio_notification_mute</item>
+        <item>@drawable/ic_audio_phone</item>
+        <item>@drawable/ic_audio_vol_mute</item>
+    </integer-array>
+
+    <!-- Timeouts in milliseconds, 0 represents never -->
+    <string-array name="timeout_list_value" translatable="false">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Ringer Modes: these correspond to class constants, DO NOT TRANSLATE! -->
+    <string-array name="ringer_list_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- DO NOT CHANGE ORDER!!! -->
+    <string-array name="disable_button_values" translatable="false">
+        <item>0</item>  <!-- KEYCODE_UNKNOWN -->
+        <item>24</item> <!-- KEYCODE_VOLUME_UP -->
+        <item>25</item> <!-- KEYCODE_VOLUME_DOWN -->
+        <item>49</item> <!-- KEYCODE_VOLUME_DOWN + KEYCODE_VOLUME_UP -->
+        <item>576</item> <!-- Lockscreen -->
+    </string-array>
+
+    <!-- See android.view.KeyEvent, DO NOT TRANSLATE! -->
+    <integer-array name="media_control_keycodes" translatable="false">
+        <item>85</item>
+        <item>87</item>
+        <item>88</item>
+        <item>86</item>
+    </integer-array>
+
+    <!-- See android.media.AudioManager, DO NOT TRANSLATE! -->
+    <string-array name="stream_values" translatable="false">
+        <item>-2147483648</item> <!-- None  -->
+        <item>4</item>  <!-- Alarm -->
+        <item>3</item>  <!-- Music -->
+        <item>5</item>  <!-- Notif -->
+        <item>2</item>  <!-- Ring  -->
+    </string-array>
+
+    <!-- If you include it in your own library use this pattern: define_* -->
+    <!-- If it should be included in the AboutLibraries lib use this pattern: define_int_* -->
+    <string name="define_AndroidSupport"></string>
+    <string name="library_AndroidSupport_author">Google Inc.</string>
+    <string name="library_AndroidSupport_authorWebsite">https://developer.android.com/</string>
+    <string name="library_AndroidSupport_libraryName">Android Support</string>
+    <string name="library_AndroidSupport_libraryDescription">The Android Support Library package is a set of code libraries that provide backward-compatible versions of Android framework APIs as well as features that are only available through the library APIs.</string>
+    <string name="library_AndroidSupport_libraryVersion">v14</string>
+    <string name="library_AndroidSupport_libraryWebsite">https://developer.android.com/tools/support-library/</string>
+    <string name="library_ActionBarSherlock_licenseId">apache_2_0</string>
+    <string name="library_ActionBarSherlock_isOpenSource">true</string>
+
+    <string name="define_Otto"></string>
+    <string name="library_Otto_author">Jake Wharton</string>
+    <string name="library_Otto_authorWebsite">http://jakewharton.com/</string>
+    <string name="library_Otto_libraryName">Otto</string>
+    <string name="library_Otto_libraryVersion">1.3.5</string>
+    <string name="library_Otto_libraryDescription">Otto is an event bus designed to decouple different parts of your application while still allowing them to communicate efficiently.</string>
+    <string name="library_Otto_libraryWebsite">http://square.github.io/otto/</string>
+    <string name="library_Otto_repositoryLink">https://github.com/square/otto</string>
+    <string name="library_Otto_licenseId">apache_2_0</string>
+    <string name="library_Otto_isOpenSource">true</string>
+
+    <string name="define_Crouton"></string>
+    <string name="library_Crouton_author">Benjamin Weiss</string>
+    <string name="library_Crouton_authorWebsite">https://plus.google.com/u/0/117509657298845443204</string>
+    <string name="library_Crouton_libraryName">Crouton</string>
+    <string name="library_Crouton_libraryVersion">1.8.4</string>
+    <string name="library_Crouton_libraryDescription">Crouton is a class that can be used by Android developers that feel the need for an alternative to the Context insensitive Toast.</string>
+    <string name="library_Crouton_libraryWebsite">https://github.com/keyboardsurfer/Crouton</string>
+    <string name="library_Crouton_repositoryLink">https://github.com/keyboardsurfer/Crouton</string>
+    <string name="library_Crouton_licenseId">apache_2_0</string>
+    <string name="library_Crouton_isOpenSource">true</string>
+
+    <string name="define_HoloColorPicker"></string>
+    <string name="library_HoloColorPicker_author">Lars Werkman</string>
+    <string name="library_HoloColorPicker_authorWebsite">http://larswerkman.com/</string>
+    <string name="library_HoloColorPicker_libraryName">HoloColorPicker</string>
+    <string name="library_HoloColorPicker_libraryVersion">1.4</string>
+    <string name="library_HoloColorPicker_libraryDescription">Marie Schweiz made a beautiful new design for the Holo ColorPicker which added a lot of new functionality.</string>
+    <string name="library_HoloColorPicker_repositoryLink">https://github.com/LarsWerkman/HoloColorPicker</string>
+    <string name="library_HoloColorPicker_licenseId">apache_2_0</string>
+    <string name="library_HoloColorPicker_isOpenSource">true</string>
+
+    <string name="define_CircularProgressBarDrawable"></string>
+    <string name="library_CircularProgressBarDrawable_author">Chiller Labs</string>
+    <string name="library_CircularProgressBarDrawable_authorWebsite">https://github.com/chillerlabs</string>
+    <string name="library_CircularProgressBarDrawable_libraryName">CircularProgressBarDrawable</string>
+    <string name="library_CircularProgressBarDrawable_libraryVersion">1.0</string>
+    <string name="library_CircularProgressBarDrawable_libraryDescription">A customizable circular progress bar for Android.</string>
+    <string name="library_CircularProgressBarDrawable_repositoryLink">https://github.com/chillerlabs/android-circular-progress-bar</string>
+    <string name="library_CircularProgressBarDrawable_licenseId">apache_2_0</string>
+    <string name="library_CircularProgressBarDrawable_isOpenSource">true</string>
+
+    <string name="define_SystemBarTint"></string>
+    <string name="library_SystemBarTint_author">Jeff Gilfelt</string>
+    <string name="library_SystemBarTint_authorWebsite">https://github.com/jgilfelts</string>
+    <string name="library_SystemBarTint_libraryName">SystemBarTint</string>
+    <string name="library_SystemBarTint_libraryVersion">1.0.3</string>
+    <string name="library_SystemBarTint_libraryDescription">Apply background tinting to the Android system UI when using KitKat translucent modes.</string>
+    <string name="library_SystemBarTint_repositoryLink">https://github.com/jgilfelt/SystemBarTint</string>
+    <string name="library_SystemBarTint_licenseId">apache_2_0</string>
+    <string name="library_SystemBarTint_isOpenSource">true</string>
+
+    <string name="define_FileLogger"></string>
+    <string name="library_FileLogger_author">LevelUp Studios</string>
+    <string name="library_FileLogger_authorWebsite">http://levelupstudios.com/</string>
+    <string name="library_FileLogger_libraryName">FileLogger</string>
+    <string name="library_FileLogger_libraryVersion">c78</string>
+    <string name="library_FileLogger_libraryDescription">Useful tool to log android events and let the users send you feedback.</string>
+    <string name="library_FileLogger_repositoryLink">https://github.com/levelup/android-filelogger/</string>
+    <string name="library_FileLogger_licenseId">apache_2_0</string>
+    <string name="library_FileLogger_isOpenSource">true</string>
+
+    <string name="define_DashClock"></string>
+    <string name="library_DashClock_author">Roman Nurik</string>
+    <string name="library_DashClock_authorWebsite">https://play.google.com/store/apps/details?id=net.nurik.roman.dashclock</string>
+    <string name="library_DashClock_libraryName">DashClock</string>
+    <string name="library_DashClock_libraryVersion">1.6</string>
+    <string name="library_DashClock_libraryDescription">DashClock is a replacement lock screen clock widget for Android 4.2+.</string>
+    <string name="library_DashClock_repositoryLink">https://code.google.com/p/dashclock/</string>
+    <string name="library_DashClock_licenseId">apache_2_0</string>
+    <string name="library_DashClock_isOpenSource">true</string>
+
+    <string name="aboutLibraries_description_showIcon">true</string>
+    <string name="aboutLibraries_description_showVersion">true</string>
+
+    <!-- VPI -->
+
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <bool name="default_line_indicator_centered">true</bool>
+
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+
+    <bool name="default_underline_indicator_fades">true</bool>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+
+</resources>

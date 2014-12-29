@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ======================================== -->
+    <!-- The following resources were recently moved from sw600dp; there may
+         be situations where they don't sync up perfectly with PhoneStatusBar. -->
+    <!-- ======================================== -->
+
+    <!-- The barHeight of the ticker, including the icon -->
+    <dimen name="notification_ticker_width">360dp</dimen>
+    <!-- Status bar panel bottom offset (height of status bar - overlap) -->
+    <dimen name="status_bar_panel_bottom_offset">36dp</dimen>
+    <!-- gap on either side of status bar notification icons -->
+    <dimen name="status_bar_icon_padding">1dp</dimen>
+    <!-- The barHeight of the notification panel window -->
+    <dimen name="notification_panel_width">512dp</dimen>
+    <!-- The minimum height of the notification panel window -->
+    <dimen name="notification_panel_min_height">770dp</dimen>
+    <!-- Bottom margin (from display edge) for status bar panels -->
+    <dimen name="panel_float">56dp</dimen>
+
+    <dimen name="volume_panel_screen_width">512.0dip</dimen>
+</resources>

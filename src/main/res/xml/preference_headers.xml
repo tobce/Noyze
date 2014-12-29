@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="me.barrasso.android.volume.activities.ConfigurationActivity$InterfaceSettings"
+        android:icon="@drawable/ic_palette_black"
+        android:title="@string/interface_settings"
+        android:summary="@string/interface_settings_desc" />
+
+    <header android:fragment="me.barrasso.android.volume.activities.ConfigurationActivity$MediaSettings"
+        android:icon="@drawable/ic_speaker_black"
+        android:title="@string/media_settings"
+        android:summary="@string/media_settings_desc" />
+
+    <header android:fragment="me.barrasso.android.volume.activities.ConfigurationActivity$LabSettings"
+        android:icon="@drawable/ic_warning_black_36dp"
+        android:title="@string/labs_title"
+        android:summary="@string/labs_desc" />
+
+    <!-- <header
+        android:id="@id/header_rate"
+        android:icon="@drawable/ic_play_shopping_bag_black_48dp"
+        android:title="@string/say_thanks"
+        android:summary="@string/say_thanks_desc" /> -->
+
+    <header
+        android:id="@id/header_google_plus"
+        android:icon="@drawable/google"
+        android:title="@string/about_google"
+        android:summary="@string/about_google_desc"/>
+
+    <header android:fragment="me.barrasso.android.volume.activities.ConfigurationActivity$AdvancedSettings"
+        android:icon="@drawable/ic_developer_mode_black_48dp"
+        android:title="@string/advanced_title" />
+
+    <header
+        android:id="@id/header_about"
+        android:icon="@drawable/ic_info_black_48dp"
+        android:title="@string/about_settings" />
+
+</preference-headers>

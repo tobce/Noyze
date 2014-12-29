@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:baselineAligned="false"
+    android:background="?android:activatedBackgroundIndicator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingStart="14dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:paddingEnd="?android:attr/scrollbarSize"
+        android:contentDescription="@string/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dip"
+        android:layout_marginEnd="8dip"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:paddingEnd="?android:attr/scrollbarSize"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dip"
+        android:layout_marginEnd="6dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip">
+
+        <TextView tools:text="Title"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textColor="@android:color/black"
+            android:ellipsize="marquee"
+            android:id="@android:id/title"
+            android:fadingEdge="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView tools:text="Subtitle text"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary"
+            android:ellipsize="end"
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@id/ribbon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:contentDescription="@string/go_pro"
+            android:layout_gravity="top|end|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pro_ribbon" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:paddingEnd="?android:attr/scrollbarSize"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@id/ribbon"
+        android:layout_gravity="center|end"
+        android:layout_marginEnd="-16.0dp"
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+</RelativeLayout>

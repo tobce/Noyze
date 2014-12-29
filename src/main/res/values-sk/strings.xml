@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="description">Noyze je prispôsobiteľný panel s nastavením hlasitosti pre Android s témami, ovládaním prehrávania médií a aj oveľa viac!</string>
+
+    <string name="accessibility_service_label">Noyze</string>
+    <string name="accessibility_service_description">Uľahčenie prístupu povoľuje Noyze prístup k tlačidlám hlasitosti.
+        Použitá je iba informácia o stave hlasitosti, žiadne informácie nie sú ukladané alebo zdieľané.</string>
+    <string name="accessibility_dialog_title">Uľahčenie prístupu</string>
+    <string name="accessibility_dialog_description">Noyze musí byť povolený v Nastavenia > Uľahčenie prístupu pre ovládanie hlasitosti.</string>
+    <string name="accessibility_dialog_description_on">Noyze môžete vypnúť v Nastavenia > Uľahčenie prístupu.</string>
+    <string name="accessibility_error">Nemožno otvoriť: prejdite na Nastavenia > Uľahčenie prístupu</string>
+    <string name="changelog_title">Čo je nové</string>
+    <string name="changelog_desc">Aktualizácie a história verzií</string>
+
+    <string name="notification_dialog_title">Prístup k upozorneniam</string>
+    <string name="notification_dialog_description">Prístup k upozorneniam dovoľuje Noyze získať viac informácií o prehrávanej hudbe.
+        Toto môže byť povolené v Nastavenia > Zabezpečenie > Prístup k upozorneniam.</string>
+    <string name="notification_dialog_description_on">Prístup k upozorneniam môže byť zakázaný iba v Nastavenia > Zabezpečenie > Prístup k upozorneniam.</string>
+    <string name="notification_error">Nemožno otvoriť: prejdite na Nastavenia > Zabezpečenie > Prístup k upozorneniam</string>
+    <string name="inapp_error">Nákupy v aplikácii cez Obchod Play nie sú dostupné</string>
+
+    <string name="version_title">Číslo zostavy</string>
+    <string name="expand">Rozbaliť</string>
+    <string name="select">Zvoliť</string>
+    <string name="selected">Zvolené</string>
+    <string name="foreground_notif">Oznámenie</string>
+    <string name="transparency">Priehľadnosť</string>
+    <string name="go_pro">Získať Pro</string>
+
+    <string name="take_me">Ísť</string>
+    <string name="interface_settings">Vzhľad a dojem</string>
+    <string name="interface_settings_desc">Téma a nastavenia vzhľadu</string>
+    <string name="media_settings">Zvuk a médiá</string>
+    <string name="media_settings_desc">Správa hlasitosti a prehrávanie médií</string>
+    <string name="theme">Téma</string>
+    <string name="theme_desc">Vyberte si niektorú z tém</string>
+    <string name="timeout">Časový limit</string>
+    <string name="timeout_desc">Čas zobrazenia panela</string>
+    <string name="music_app">Predvolený prehrávač hudby</string>
+    <string name="music_app_desc">Pre prípad, že Noyze nevie rozpoznať aplikáciu na prehrávanie hudby</string>
+    <string name="about_settings">O aplikácii</string>
+    <string name="about_noyze">O aplikácii Noyze</string>
+    <string name="master_volume">Hlavná hlasitosť</string>
+    <string name="master_volume_desc">Veľa zvukov, jedna hlasitosť</string>
+    <string name="volume_change">Zvuk nastavenia hlasitosti</string>
+    <string name="volume_change_desc">Prehrať zvuk pri nastavení hlasitosti</string>
+    <string name="title_apps">Aplikácie</string>
+    <string name="title_shortcuts">Odkazy</string>
+    <string name="media_shortcut">Ovládače medií</string>
+    <string name="color">Farba</string>
+    <string name="icon">Ikona</string>
+    <string name="foreground_color">Farba popredia</string>
+    <string name="foreground_color_desc">Zvoľte farbu popredia</string>
+    <string name="background_color">Farba pozadia</string>
+    <string name="background_color_desc">Zvoľte farbu pozadia</string>
+    <string name="labs_title">Experimentálne</string>
+    <string name="labs_desc">Experimentálne funkcie a vylepšenia</string>
+    <string name="media_playback_alt">Diaľkové ovládanie</string>
+    <string name="media_playback_alt_desc">Povoľte \"Prístup k upozorneniam\" pre lepšie ovládanie médií</string>
+    <string name="advanced_title">Pokročilé</string>
+    <string name="anonymous_title">Pomôžte zlepšiť Noyze</string>
+    <string name="anonymous_desc">Odoslať štatistiky používania pre zlepšenie Noyze</string>
+    <string name="seek_title">Ovládanie na lište</string>
+    <string name="seek_desc">Ovládanie hlasitosti posúvaním prsta po stavovej lište</string>
+    <string name="no_longpress_title">Ignorovať dlhé stlačenie</string>
+    <string name="no_longpress_desc">Umožňuje Noyze správne fungovať so snímkami obrazovky</string>
+    <string name="album_art">Obrázok albumu</string>
+    <string name="say_thanks">Poďakovať</string>
+    <string name="say_thanks_desc">Ak sa vám Noyze páči, prosím, zanechajte komentár v Obchode Play</string>
+    <string name="long_press_up">Dlhé stlačenie tlačidla hlasitosť hore</string>
+    <string name="long_press_down">Dlhé stlačenie tlačidla hlasitosť dole</string>
+    <string name="long_press_desc">Zvoľte aplikáciu alebo odkaz pre spustenie</string>
+    <string name="smart_hide">Skryť panel pri prehrávaní</string>
+    <string name="smart_hide_desc">Skryť pri videách a hrách (napr. YouTube)</string>
+    <string name="theme_specific">NASTAVENIE TÉMY</string>
+    <string name="camera_hide">Zakázať pre fotoaparát</string>
+    <string name="camera_hide_desc">Umožňuje Noyze správne fungovať ak sú tlačidlá hlasitosti nastavené ako spúšťač pre fotoaparát</string>
+    <string name="bar_height">Výška panela</string>
+    <string name="bar_height_desc">Výška panela v pixeloch</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>Prehrať / pozastaviť</item>
+        <item>Ďalšia</item>
+        <item>Predchádzajúca</item>
+        <item>Zastaviť</item>
+    </string-array>
+    <string name="play_pause">Prehrať / pozastaviť</string>
+    <string name="previous">Predchádzajúca</string>
+    <string name="next">Ďalšia</string>
+
+    <!-- Equalizer -->
+    <string name="bass_boost">Zosilnenie basov</string>
+    <string name="virtualizer">Virtualizer</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Odkaz</string>
+    <string name="pref_shortcut_default">(predvolená)</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Vitajte v aplikácii Noyze</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_done_caps">HOTOVO</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Panel hlasitosti</string>
+    <string-array name="theme_titles">
+        <item>Stavová lišta</item>
+        <item>Drop</item>
+        <!-- <item>Stavová lišta+</item> -->
+        <item>Windows Phone</item>
+        <item>Heads Up</item>
+        <item>Paranoid</item>
+        <item>Pás</item>
+        <item>Blackberry</item>
+        <item>MIUI V5</item>
+        <item>Apple iOS</item>
+        <item>Rozšírené ovládače</item>
+        <item>Neviditeľné</item>
+    </string-array>
+
+    <string-array name="timeout_list">
+        <item>500ms</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekúnd</item>
+        <item>10 sekúnd</item>
+        <item>30 sekúnd</item>
+        <item>Nikdy</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>Predvolené</item>
+        <item>Zvoniť</item>
+        <item>Tichý režim</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">tichý</string>
+    <string name="silent_c">Tichý</string>
+    <string name="mute_c">Stlmiť</string>
+    <string name="vibrate_ring">vibrovať + zvoniť</string>
+    <string name="vibrate">vibrovať</string>
+    <string name="vibrate_c">Vibrovať</string>
+    <string name="ring">zvoniť</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Odoslať záznam o chybe</string>
+    <string name="send_logs_chooser_title">Odoslať záznam pomocou</string>
+    <string name="send_logs_desc">Nahlásiť problém a odoslať záznam o chybe</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Vyzváňanie</string>
+    <!-- Title of the dialog where the user is adjusting the music volume_3 -->
+    <string name="volume_music">Médiá</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Prehrávanie cez Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Tiché zvonenie zvolené</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">Hovor</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Hovor cez Bluetooth</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for alarms -->
+    <string name="volume_alarm">Budík</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Upozornenia</string>
+    <!-- Title of the dialog where the user is adjusting the general audio volume_3 -->
+    <string name="volume_unknown">Hlasitosť</string>
+
+    <!-- Content description for bluetooth volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <!-- Content description for ringer volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_ringer">Vyzváňanie</string>
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Hovor</string>
+    <!-- Content description for media volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_media">Médiá</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Upozornenia</string>
+    <!-- Content description for master volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_master">Hlavná hlasitosť</string>
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Vzdialené médiá</string>
+
+    <!-- 9/5/2014 -->
+    <string name="foreground_notif_desc">Pre pohodlie a stabilitu</string>
+    <string name="tap_configure">Kliknite pre zobrazenie</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Zakázať tlačidlá</string>
+    <string name="disable_button_desc">Skvelé pre pokazené tlačidlá</string>
+    <string-array name="disable_button_options">
+        <item>Žiadne</item>
+        <item>Hlasitosť hore</item>
+        <item>Hlasitosť dole</item>
+        <item>Oba</item>
+        <item>Uzamknutie obrazovky</item>
+    </string-array>
+
+    <!-- 9/12/2014 -->
+    <string name="safe_volume">Bezpečná hlasitosť</string>
+
+    <!-- 9/13/2014 -->
+    <string name="stretch_title">Natiahnuť</string>
+    <string name="stretch_desc">Natiahnuť na celú šírku obrazovky</string>
+    <string name="stream_title">Jedna hlasitosť</string>
+    <string name="stream_desc">Zomknúť všetky ovládače do jedného</string>
+
+    <!-- DO NOT CHANGE THE ORDER!!! -->
+    <string-array name="stream_options">
+        <item>Žiadne</item>
+        <item>Budík</item>
+        <item>Médiá</item>
+        <item>Upozornenia</item>
+        <item>Vyzváňanie</item>
+    </string-array>
+
+    <!-- 9/14/2014 -->
+    <string name="open_panel">Otvoriť panel s hlasitosťou</string>
+
+    <!-- 9/20/2014 -->
+    <string name="blacklist">Čierna listina</string>
+    <string name="blacklist_desc">Zakázať Noyze pre niektoré aplikácie</string>
+
+    <string name="link_ring_notif">Spojiť hlasitosti</string>
+    <string name="link_ring_notif_desc">Spojiť hlasitosti vyzváňania a upozornenia</string>
+
+    <!-- 9/28/14 -->
+    <string name="about_google">Google+</string>
+    <string name="about_google_desc">Pridajte sa k nám do komunity Noyze na Google+</string>
+    <string name="url_error">Chyba pri otváraní webovej stránky</string>
+    <string name="permission_error">Noyze nemá povolenie vykonanie tejto akcie</string>
+
+    <!-- 10/5/14 -->
+    <string name="apply">Použiť</string>
+
+</resources>

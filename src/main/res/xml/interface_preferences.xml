@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <me.barrasso.android.volume.ui.PreferenceColorCategory
+        app:textColor="@color/noyze_primary_dark"
+        app:textInAllCaps="true"
+        android:title="@string/interface_settings">
+
+        <me.barrasso.android.volume.activities.ImageListPreference
+            app:pics="@array/theme_images"
+            app:listItemLayout="@layout/theme_item"
+            android:entries="@array/theme_titles"
+            android:entryValues="@array/theme_list_value"
+            android:title="@string/theme"
+            android:summary="@string/theme_desc"
+            android:icon="@drawable/ic_qm_edit"
+            android:key="VolumePanel" />
+
+        <ListPreference
+            android:key="PopupWindow_autoHideDuration"
+            android:icon="@drawable/ic_settings_date_time"
+            android:entries="@array/timeout_list"
+            android:entryValues="@array/timeout_list_value"
+            android:defaultValue="5000"
+            android:title="@string/timeout"
+            android:summary="@string/timeout_desc" />
+
+    </me.barrasso.android.volume.ui.PreferenceColorCategory>
+
+    <me.barrasso.android.volume.ui.PreferenceColorCategory
+        app:textColor="@color/noyze_primary_dark"
+        app:textAllCaps="true"
+        android:title="@string/theme_specific">
+
+        <com.google.android.apps.dashclock.configuration.ColorPreference
+            app:numColumns="5"
+            app:itemLayout="@layout/pref_layout_color"
+            app:choices="@array/super_color_choice_values"
+            android:icon="@null"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:dialogTitle="@string/foreground_color"
+            android:defaultValue="@android:color/white"
+            android:title="@string/foreground_color"
+            android:summary="@string/foreground_color_desc"
+            android:key="VolumePanel_color" />
+
+        <com.google.android.apps.dashclock.configuration.ColorPreference
+            app:numColumns="5"
+            app:itemLayout="@layout/pref_layout_color"
+            app:choices="@array/super_color_choice_values"
+            android:icon="@null"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:defaultValue="@android:color/black"
+            android:dialogTitle="@string/background_color"
+            android:title="@string/background_color"
+            android:summary="@string/background_color_desc"
+            android:key="VolumePanel_backgroundColor" />
+
+        <com.google.android.apps.dashclock.configuration.ColorPreference
+            app:numColumns="5"
+            app:itemLayout="@layout/pref_layout_color"
+            app:choices="@array/super_color_choice_values"
+            android:icon="@null"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:defaultValue="@android:color/darker_gray"
+            android:dialogTitle="@string/tertiary_color"
+            android:title="@string/tertiary_color"
+            android:summary="@string/tertiary_color_desc"
+            android:key="VolumePanel_tertiaryColor" />
+
+        <CheckBoxPreference
+            android:key="VolumePanel_seek"
+            android:title="@string/seek_title"
+            android:summary="@string/seek_desc"
+            android:icon="@null"
+            android:defaultValue="false" />
+
+        <me.barrasso.android.volume.ui.EditTextIntegerPreference
+            android:icon="@null"
+            android:key="VolumeBarPanel_barHeight"
+            android:defaultValue="4"
+            android:title="@string/bar_height"
+            android:summary="@string/bar_height_desc" />
+
+        <CheckBoxPreference
+            android:key="VolumePanel_stretch"
+            android:title="@string/stretch_title"
+            android:summary="@string/stretch_desc"
+            android:icon="@null"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="VolumePanel_alwaysExpanded"
+            android:title="@string/auto_expand"
+            android:summary="@string/auto_expand_desc"
+            android:icon="@null"
+            android:defaultValue="false" />
+
+    </me.barrasso.android.volume.ui.PreferenceColorCategory>
+
+</PreferenceScreen>

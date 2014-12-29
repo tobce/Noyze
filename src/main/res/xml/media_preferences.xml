@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <me.barrasso.android.volume.ui.PreferenceColorCategory
+        app:textColor="@color/noyze_primary_dark"
+        app:textInAllCaps="true"
+        android:title="@string/media_settings"
+        android:key="AudioMedia">
+
+        <com.google.android.apps.dashclock.configuration.AppChooserPreference
+            android:key="VolumePanel_musicUri"
+            android:icon="@drawable/ic_album_black"
+            android:title="@string/music_app"
+            android:summary="@string/music_app_desc"
+            app:allowUseDefault="true" />
+
+        <com.google.android.apps.dashclock.configuration.AppChooserPreference
+            android:icon="@drawable/ic_bt_pointing_hid"
+            android:key="VolumePanel_longPressActionUp"
+            android:title="@string/long_press_up"
+            android:summary="@string/long_press_desc"
+            app:allowUseDefault="true" />
+
+        <com.google.android.apps.dashclock.configuration.AppChooserPreference
+            android:icon="@drawable/ic_bt_pointing_hid"
+            android:key="VolumePanel_longPressActionDown"
+            android:title="@string/long_press_down"
+            android:summary="@string/long_press_desc"
+            app:allowUseDefault="true" />
+
+        <ListPreference
+            android:icon="@drawable/ic_audio_ring_notif_vibrate_black"
+            android:key="VolumePanel_ringerMode"
+            android:defaultValue="2"
+            android:entries="@array/ringer_list"
+            android:entryValues="@array/ringer_list_values"
+            android:title="@string/volume_change"
+            android:summary="@string/volume_change_desc" />
+
+        <ListPreference
+            android:icon="@drawable/ic_audio_vol_am_black"
+            android:key="VolumePanel_defaultStream"
+            android:entries="@array/stream_options"
+            android:entryValues="@array/stream_values"
+            android:defaultValue="-2147483648"
+            android:title="@string/stream_title"
+            android:summary="@string/stream_desc" />
+
+        <CheckBoxPreference
+            android:key="VolumePanel_linkNotifRinger"
+            android:icon="@drawable/ic_notif_ring_link_black"
+            android:defaultValue="false"
+            android:enabled="false"
+            android:title="@string/link_ring_notif"
+            android:summary="@string/link_ring_notif_desc" />
+
+    </me.barrasso.android.volume.ui.PreferenceColorCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="description">noyze jest konfigurowalnym panelem głośności dla androida, sterowaniem odtwarzania mediów, i wiele więcej!</string>
+
+    <string name="accessibility_service_label">serwis noyze</string>
+    <string name="accessibility_service_description">Ułatwienia dostępu pozwalają noyze kontrolować przyciski głośności.
+        Tylko informacje potrzebne do otworzenia panelu głośności są przetwarzane, i absolutnie żadne nie są przechowywane lub udostępniane .</string>
+    <string name="accessibility_dialog_title">Ułatwienia dostępu</string>
+    <string name="accessibility_dialog_description">noyze musi być włączone w Ustawieniach > Ułatwienia dostępu aby kontrolować przyciski głośności.</string>
+    <string name="accessibility_dialog_description_on">noyze można wyłączyć tylko w Ustawieniach > Ułatwienia dostępu.</string>
+    <string name="accessibility_error">Nie można otworzyć: wejdź do Ustawień > Ułatwienia dostępu</string>
+    <string name="changelog_title">Co nowego</string>
+    <string name="changelog_desc">Historia wersji i aktualizacji</string>
+
+    <string name="notification_dialog_title">Dostęp do powiadomień</string>
+    <string name="notification_dialog_description">Dostęp do powiadomień daje noyze więcej informacji o odtwarzanej muzyce.
+        Może być włączone tylko w Ustawienia > Zabezpieczenia > Dostęp do powiadomień.</string>
+    <string name="notification_dialog_description_on">Dostęp do powiadomień można wyłączyć tylko w Ustawienia > Zabezpieczenia > Dostęp do powiadomień.</string>
+    <string name="notification_error">Nie można otworzyć: wejdź do Ustawienia > Zabezpieczenia > Dostęp do powiadomień</string>
+    <string name="inapp_error">Google Play kupowanie w aplikacji nie dostępne</string>
+
+    <string name="expand">Rozwiń</string>
+    <string name="select">Zaznacz</string>
+    <string name="selected">Zaznaczono</string>
+    <string name="foreground_notif">Powiadomienia</string>
+    <string name="transparency">Przezroczystość</string>
+    <string name="go_pro">Przejdź na Pro</string>
+
+    <string name="take_me">weź mnie</string>
+    <string name="interface_settings">Wygląd i styl</string>
+    <string name="interface_settings_desc">Motyw i ustawienia wizualne</string>
+    <string name="media_settings">Dźwięk i Media</string>
+    <string name="media_settings_desc">Zarządzanie głośnością &amp; odtwarzanie mediów</string>
+    <string name="theme">Motyw</string>
+    <string name="theme_desc">Wybierz z listy motywów</string>
+    <string name="timeout">Limit czasu</string>
+    <string name="timeout_desc">Czas w sekundach do ukrycia panelu</string>
+    <string name="music_app">Domyślna aplikacja muzyki</string>
+    <string name="music_app_desc">Noyze nie może ustalić jaka to muzyka</string>
+    <string name="about_settings">O aplikacji</string>
+    <string name="about_noyze">O noyze</string>
+    <string name="master_volume">Master głośności</string>
+    <string name="master_volume_desc">Więcej dźwięków, jedena głośność</string>
+    <string name="volume_change">Regulacja głośności dźwięku</string>
+    <string name="volume_change_desc">Odtwarzaj dźwięki podczas regulacji głośności</string>
+    <string name="title_apps">Aplikacje</string>
+    <string name="title_shortcuts">Skróty</string>
+    <string name="media_shortcut">Sterowanie multimediami</string>
+    <string name="color">Kolor</string>
+    <string name="icon">Ikona</string>
+    <string name="foreground_color">Kolor pierwszego planu</string>
+    <string name="foreground_color_desc">Wybierz kolor pierwszego planu</string>
+    <string name="background_color">Kolor tła</string>
+    <string name="background_color_desc">Wybierz kolor tła</string>
+    <string name="labs_title">Laboratorium</string>
+    <string name="labs_desc">Experymentalne funkcje &amp; tweaks</string>
+    <string name="media_playback_alt">Zdalne sterowanie</string>
+    <string name="media_playback_alt_desc">Włącz \"Dostęp do powiadomień\" dla poprawionej kontroli mediami</string>
+    <string name="advanced_title">Zawaansowane</string>
+    <string name="anonymous_title">Pomórz ulepszyć noyze</string>
+    <string name="anonymous_desc">Wyśli statystyki użytkowania aby ulepszyć noyze</string>
+    <string name="seek_title">Volume Scrubber</string>
+    <string name="seek_desc">Reguluj głośność przesuwając pasek postępu</string>
+    <string name="no_longpress_title">Ignoruj długie naciśnięcie</string>
+    <string name="no_longpress_desc">Pozwala noyze grać podczas robienia zrzutu ekranu</string>
+    <string name="album_art">Okładka albumu</string>
+    <string name="say_thanks">Powiedz dzięki</string>
+    <string name="say_thanks_desc">Jeśli lubisz noyze, proszę zostaw komentarz w Sklep Play</string>
+    <string name="long_press_up">Długie naciśnięcie głośności +</string>
+    <string name="long_press_down">Długie naciśnięcie głośności -</string>
+    <string name="long_press_desc">Wybierz aplikacje lub skrót do uruchomienia</string>
+    <string name="smart_hide">Ukryj multimedia</string>
+    <string name="smart_hide_desc">Ukryj dla filmów &amp; gier (e.g. YouTube)</string>
+    <string name="theme_specific">Specyfikacja motywu</string>
+    <string name="camera_hide">Wyłącz dla aparatu</string>
+    <string name="camera_hide_desc">Pozwala noyze grać z przyciskiem głośności jako przyciskiem migawki</string>
+    <string name="bar_height">Wysokość belki</string>
+    <string name="bar_height_desc">Wysokość paska głośności w pikselach</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>Play/ pauza</item>
+        <item>Następna</item>
+        <item>Poprzednia</item>
+        <item>Stop</item>
+    </string-array>
+    <string name="play_pause">Play/ pauza</string>
+    <string name="previous">Poprzednia</string>
+    <string name="next">Następna</string>
+
+    <!-- Equalizer -->
+    <string name="bass_boost">Wzmocnienie basów</string>
+    <string name="virtualizer">Wirtualizer</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Skrót</string>
+    <string name="pref_shortcut_default">(Domyślny)</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Witaj w noyze</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_done_caps">Zrobione</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Panel głośności</string>
+    <string-array name="timeout_list">
+        <item>500ms</item>
+        <item>1 sekundy</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>30 sekund</item>
+        <item>Nigdy</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>Domyślny</item>
+        <item>Dzwonek</item>
+        <item>Cichy</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">cichy</string>
+    <string name="silent_c">Cichy</string>
+    <string name="mute_c">Wyciszony</string>
+    <string name="vibrate_ring">wibracje + dzwonek</string>
+    <string name="vibrate">wibracje</string>
+    <string name="vibrate_c">Wibracje</string>
+    <string name="ring">dzwonek</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Wyśli debug log</string>
+    <string name="send_logs_chooser_title">Wyśli log używając</string>
+    <string name="send_logs_desc">Raportuj problem &amp; wyśli debug log</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Dzwonek</string>
+    <!-- Title of the dialog where the user is adjusting the music volume_3 -->
+    <string name="volume_music">Multimedia</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Odtwarzanie przez Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Wybrany cichy dzwonek</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">Połączenie</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Połączenie Bluetooth</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Powiadomienia</string>
+    <!-- Title of the dialog where the user is adjusting the general audio volume_3 -->
+    <string name="volume_unknown">Głośność</string>
+
+    <!-- Content description for ringer volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_ringer">Dzwonek</string>
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Połączenie</string>
+    <!-- Content description for media volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_media">Multimedia</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Powiadomienie</string>
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Zdalne Multimedia</string>
+
+    <!-- 9/5/2014 -->
+    <string name="foreground_notif_desc">Dla wygody i stabilości</string>
+    <string name="tap_configure">Dotknij, aby wyświetlić</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Wyłącz przyciski</string>
+    <string name="disable_button_desc">Przydatne dla uszkodonych przycisków</string>
+    <string-array name="disable_button_options">
+        <item>Brak</item>
+        <item>Volume up</item>
+        <item>Volume down</item>
+        <item>Both</item>
+        <item>Ekran blokady</item>
+    </string-array>
+
+    <!-- 9/12/2014 -->
+    <string name="safe_volume">Bezpieczna głośność</string>
+
+    <!-- 9/13/2014 -->
+    <string name="stretch_title">Dopasowanie</string>
+    <string name="stretch_desc">Dopasowanie dla szerokiego ekranu</string>
+    <string name="stream_title">Strumień głośności</string>
+    <string name="stream_desc">Blokada regulacji głośności do jednego typu</string>
+
+    <!-- DO NOT CHANGE THE ORDER!!! -->
+    <string-array name="stream_options">
+        <item>Brak</item>
+        <item>Alarm</item>
+        <item>Muzyka</item>
+        <item>Powiadomienia</item>
+        <item>Dzwonek</item>
+    </string-array>
+
+    <!-- 9/14/2014 -->
+    <string name="open_panel">Otwórz panel głośności</string>
+
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation">
+
+    <string name="description">noyze est un panneau de volume personnalisable pour Android avec des thèmes, des commandes de lecture médias, et beaucoup plus!</string>
+
+    <string name="aboutLibraries_description_text">noyze est un panneau de volume personnalisable pour Android
+        avec des thèmes, des commandes de lecture médias, et beaucoup plus! merci spécial à:\n\n&#183; Justin Perricone
+        \n&#183; Luke Rodriguez\n&#183; Temitayo Odesanmi\n&#183; Jeremy Sinclair\n&#183; Michael Collins
+        \n&#183; Johan Jaworski\n&#183; Grantland Chew\n&#183; Ahmed AboutElnour\n&#183; Hoogyme of Reddit
+        \n&#183; Lahiri Cristofori\n&#183; Daniel Rusanow\n&#183; Max Blokker\n&#183; Marcio Andrade
+        \n&#183; Daniel Retkiewicz\n&#183; Tobias Christensen Eikeland\n&#183; ja_som
+        \n\nConstruit avec amour par Tom Barrasso.\nCopyright &#169; 2014</string>
+
+    <string name="accessibility_service_label">service noyze</string>
+    <string name="accessibility_service_description">L\'accessibilité permet à noyze de contrôler les boutons du volume.
+        Sont seulement nécessaires les informations pour recréer le panneau de volume, et absolument aucune autre information n\'est stockée ou partagée.</string>
+    <string name="accessibility_dialog_title">Accessibilité</string>
+    <string name="accessibility_dialog_description">noyze a besoin d\'être activé dans Paramètres > Accessibilité pour contrôler les boutons du volume.</string>
+    <string name="accessibility_dialog_description_on">noyze ne peut seulement être désactivé que dans Paramètres > Accessibilité.</string>
+    <string name="accessibility_error">Impossible d\'ouvrir: aller à Paramètres > Accessibilité</string>
+    <string name="changelog_title">Quoi de neuf</string>
+    <string name="changelog_desc">Mise à jour et historiques des versions</string>
+
+    <string name="notification_dialog_title">Accès notification</string>
+    <string name="notification_dialog_description">Accès aux notifications donne à noyze plus d\'informations pour savoir quelle musique est lue.
+        Ceci ne peut être seulement activé dans Paramètres > Securité > Notifications.</string>
+    <string name="notification_dialog_description_on">Accès notification ne peut seulement être désactivé que dans Paramètres > Sécurité > Notifications.</string>
+    <string name="notification_error">Impossible d\'ouvrir: aller à Paramètres > Sécurité > Notifications</string>
+    <string name="inapp_error">Achat In-App Google Play N\'est pas Disponible</string>
+
+    <string name="version_title">Construction</string>
+    <string name="expand">Développer</string>
+    <string name="select">Sélectionner</string>
+    <string name="selected">Sélectionné</string>
+    <string name="foreground_notif">Notification</string>
+    <string name="transparency">Transparence</string>
+    <string name="go_pro">Aller à Pro</string>
+
+    <string name="take_me">Y aller</string>
+    <string name="interface_settings">Regarder et Toucher</string>
+    <string name="interface_settings_desc">Paramètres visuels et thèmes</string>
+    <string name="media_settings">Son et Média</string>
+    <string name="media_settings_desc">Gestionnaire volume &amp; lecture médias</string>
+    <string name="theme">Thème</string>
+    <string name="theme_desc">Choisir parmis de nombreux thèmes</string>
+    <string name="timeout">Délais</string>
+    <string name="timeout_desc">Délais, en secondes, pour cacher le panneau</string>
+    <string name="music_app">Application de musique par défaut</string>
+    <string name="music_app_desc">Au cas où noyze ne peut pas déterminer quelle musique est jouée</string>
+    <string name="about_settings">A propos</string>
+    <string name="about_noyze">à propos de noyze</string>
+    <string name="master_volume">Volume principal</string>
+    <string name="master_volume_desc">Beaucoup de sons, un volume</string>
+    <string name="volume_change">Ajustement volume sonore</string>
+    <string name="volume_change_desc">Jouer un son quand il y a ajustement du volume</string>
+    <string name="title_apps">Applications</string>
+    <string name="title_shortcuts">Raccourcis</string>
+    <string name="media_shortcut">Contrôle média</string>
+    <string name="color">Couleur</string>
+    <string name="icon">Icône</string>
+    <string name="foreground_color">Couleur premier-plan</string>
+    <string name="foreground_color_desc">Sélectionner une couleur premier-plan</string>
+    <string name="background_color">Couleur arrière-plan</string>
+    <string name="background_color_desc">Sélectionner une couleur arrière-plan</string>
+    <string name="labs_title">Laboratoires</string>
+    <string name="labs_desc">Fonctionnalités expérimentales &amp; tweaks</string>
+    <string name="media_playback_alt">Télécommande</string>
+    <string name="media_playback_alt_desc">Activer \"Accès Notification\" pour un meilleur contrôle des médias</string>
+    <string name="advanced_title">Avancé</string>
+    <string name="anonymous_title">Aider à améliorer noyze</string>
+    <string name="anonymous_desc">Envoyer des statistiques d\'utilisation pour améliorer noyze</string>
+    <string name="seek_title">Glisser Volume</string>
+    <string name="seek_desc">Contrôler le volume en glissant la barre de progression</string>
+    <string name="no_longpress_title">Ignorer appui long</string>
+    <string name="no_longpress_desc">Autoriser noyze à jouer avec des screenshots</string>
+    <string name="album_art">Album Art</string>
+    <string name="say_thanks">Dites Merci</string>
+    <string name="say_thanks_desc">Si vous vous amusez bien avec noyze, svp laissez un commentaire sur Play Store</string>
+    <string name="long_press_up">Appui long volume haut</string>
+    <string name="long_press_down">Appui long volume bas</string>
+    <string name="long_press_desc">Sélectionner une application ou un raccourci à lancer</string>
+    <string name="smart_hide">Cacher média</string>
+    <string name="smart_hide_desc">Cacher pour vidéos &amp; jeux (ex: YouTube)</string>
+    <string name="theme_specific">THEME-SPECIFIQUE</string>
+    <string name="camera_hide">Désactiver pour la caméra</string>
+    <string name="camera_hide_desc">Autoriser noyze à jouer avec les boutons d\'obturation comme volume</string>
+    <string name="bar_height">Hauteur de la barre</string>
+    <string name="bar_height_desc">Hauteur de la barre de volume, en pixels</string>
+
+    <!-- Media Control Options -->
+    <string-array name="media_controls">
+        <item>lecture/ pause</item>
+        <item>Suivante</item>
+        <item>Précédente</item>
+        <item>Stop</item>
+    </string-array>
+    <string name="play_pause">Lecture/ pause</string>
+    <string name="previous">Précédente</string>
+    <string name="next">Suivante</string>
+
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">Raccourci</string>
+    <string name="pref_shortcut_default">(Défaut)</string>
+
+    <!-- Help/ Guide -->
+    <string name="welcome_to">Bienvenue à noyze</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_done_caps">Terminé</string>
+
+    <!-- Theme Titles + Description -->
+    <string name="volume_panel">Panneau Volume</string>
+    <string-array name="theme_titles">
+        <item>Status Bar</item>
+        <item>Drop</item>
+        <!-- <item>Status Bar+</item> -->
+        <item>Windows Phone</item>
+        <item>Heads Up</item>
+        <item>Paranoid</item>
+        <item>Volume Bar</item>
+        <item>Blackberry</item>
+        <item>MIUI V5</item>
+        <item>Apple iOS</item>
+        <item>Extended Controls</item>
+        <item>Invisible</item>
+    </string-array>
+
+    <string-array name="timeout_list">
+        <item>500ms</item>
+        <item>1 second</item>
+        <item>2 secondes</item>
+        <item>3 secondes</item>
+        <item>4 secondes</item>
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+        <item>30 secondes</item>
+        <item>Jamais</item>
+    </string-array>
+
+    <string-array name="ringer_list">
+        <item>Défaut</item>
+        <item>Sonnerie</item>
+        <item>Silence</item>
+    </string-array>
+
+    <!-- Ringer Modes (used in WP theme) -->
+    <string name="silent">silence</string>
+    <string name="silent_c">Silence</string>
+    <string name="mute_c">Muet</string>
+    <string name="vibrate_ring">vibreur + sonnerie</string>
+    <string name="vibrate">vibreur</string>
+    <string name="vibrate_c">Vibreur</string>
+    <string name="ring">sonnerie</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Envoyer journal de débogage</string>
+    <string name="send_logs_chooser_title">Envoyer des journaux en utilisant</string>
+    <string name="send_logs_desc">Signaler un problème &amp; envoyer journal de débogage</string>
+
+    <!-- Title of the dialog where the user is adjusting the phone ringer volume_3 -->
+    <string name="volume_ringtone">Sonnerie</string>
+    <!-- Title of the dialog where the user is adjusting the music volume_3 -->
+    <string name="volume_music">Média</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the media audio is playing through Bluetooth. -->
+    <string name="volume_music_hint_playing_through_bluetooth">Jouer via Bluetooth</string>
+    <!-- Hint shown in the volume_3 toast to inform the user that the current ringtone is the silent ringtone. -->
+    <string name="volume_music_hint_silent_ringtone_selected">Sonnerie silencieuse sélectionnée</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 -->
+    <string name="volume_call">En cours d\'appel</string>
+    <!-- Title of the dialog where the user is adjusting the phone call volume_3 when connected on bluetooth -->
+    <string name="volume_bluetooth_call">Bluetooth en cours d\'appel</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for alarms -->
+    <string name="volume_alarm">Alarme</string>
+    <!-- Title of the dialog where the user is adjusting the audio volume_3 for notifications -->
+    <string name="volume_notification">Notification</string>
+    <!-- Title of the dialog where the user is adjusting the general audio volume_3 -->
+    <string name="volume_unknown">Volume</string>
+
+    <!-- Content description for ringer volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_ringer">Sonnerie</string>
+    <!-- Content description for in-call volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_incall">Appel</string>
+    <!-- Content description for media volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_media">Média</string>
+    <!-- Content description for notification volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_notification">Notification</string>
+    <!-- Content description for master volume_3 icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_master">Maître</string>
+    <!-- Content description for remote media icon [CHAR LIMIT=100] -->
+    <string name="volume_icon_description_remote_media">Télécommande</string>
+    
+     <!-- 9/5/2014 -->
+    <string name="foreground_notif_desc">Pour plus de confort ou de stabilité</string>
+    <string name="tap_configure">Appuyer pour voir</string>
+
+    <!-- Disable buttons -->
+    <string name="disable_button">Désactiver boutons</string>
+    <string name="disable_button_desc">Super pour les boutons cassés ou coincés</string>
+    <string-array name="disable_button_options">
+        <item>Aucun</item>
+        <item>Volume haut</item>
+        <item>Volume bas</item>
+        <item>Les deux</item>
+        <item>Lockscreen</item>
+    </string-array>
+
+    <!-- 9/12/2014 -->
+    <string name="safe_volume">Volume sans danger</string>
+
+    <!-- 9/13/2014 -->
+    <string name="stretch_title">S\'étire pour s\'adapter</string>
+    <string name="stretch_desc">S\'étire pour s\'adapter à la largeur de l\'écran</string>
+    <string name="stream_title">Type volume</string>
+    <string name="stream_desc">Contrôle du volume de verrouillage pour un type</string>
+
+    <string-array name="stream_options">
+        <item>Aucun</item>
+        <item>Alarme</item>
+        <item>Média</item>
+        <item>Notification</item>
+        <item>Sonnerie</item>
+    </string-array>
+
+    <!-- 9/14/2014 -->
+    <string name="open_panel">Ouvrir panneau de volume</string>
+
+    <!-- 9/20/2014 -->
+    <string name="blacklist">Liste Noire</string>
+    <string name="blacklist_desc">Désactiver Noyze pour certaines applications</string>
+
+    <string name="link_ring_notif">Lier volume</string>
+    <string name="link_ring_notif_desc">Lier le volume de notification &amp; de la sonnerie</string>
+
+    <!-- 9/28/14 -->
+    <string name="about_google_desc">Rejoindre la communauté de Noyze sur Google+</string>
+    <string name="url_error">Erreur ouverture page web</string>
+    <string name="permission_error">Noyze n\'a pas la permission pour effectuer cette action</string>
+
+    <!-- 10/5/14 -->
+    <string name="apply">Définir</string>
+
+    <!-- 10/12/2014 -->
+    <string name="thanks_rating">Merci de noter Noyze!</string>
+
+</resources>

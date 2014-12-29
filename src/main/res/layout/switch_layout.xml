@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingStart="1.0dp">
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical|end"
+        android:gravity="center_vertical|end"
+        android:id="@id/switch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

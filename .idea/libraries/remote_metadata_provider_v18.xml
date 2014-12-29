@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="remote-metadata-provider-v18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/remote-metadata-provider-v18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

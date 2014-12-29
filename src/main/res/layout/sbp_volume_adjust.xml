@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:baselineAligned="false"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:id="@id/visible_panel"
+              android:background="@android:color/black"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <me.barrasso.android.volume.ui.MaxWidthLinearLayout
+                  app:maxWidth="@dimen/notification_panel_width"
+                  android:baselineAligned="false"
+                  android:gravity="center"
+                  android:id="@id/contentPanel"
+                  android:layout_gravity="center_horizontal|top"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:focusableInTouchMode="true"
+                  android:descendantFocusability="blocksDescendants"
+                  android:padding="1.0dp"
+                  tools:layout_height="25dp"
+                  android:weightSum="1.0">
+        <ImageView
+                   android:id="@id/stream_icon"
+                   android:background="?android:attr/selectableItemBackground"
+                   android:contentDescription="@string/volume_unknown"
+                   android:scaleType="fitCenter"
+                   android:focusableInTouchMode="false"
+                   android:focusable="false"
+                   android:clickable="false"
+                   android:adjustViewBounds="true"
+                   android:layout_marginStart="4.0dp"
+                   android:layout_marginTop="1.0dp"
+                   android:layout_marginBottom="1.0dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/ic_action_headphones" />
+        <SeekBar
+                 android:id="@android:id/progress"
+                 android:layout_width="0dp"
+                 android:progress="50"
+                 android:minHeight="24dp"
+                 android:maxHeight="24dp"
+                 android:indeterminate="false"
+                 android:layout_height="24dp"
+                 android:focusableInTouchMode="false"
+                 android:focusable="false"
+                 android:clickable="false"
+                 android:progressDrawable="@drawable/scrubber_progress_horizontal_white"
+                 android:thumb="@null"
+                 android:layout_weight="1.0"
+                 android:layout_marginEnd="3.0dip"
+                 style="?android:attr/seekBarStyle" />
+    </me.barrasso.android.volume.ui.MaxWidthLinearLayout>
+
+    <LinearLayout
+        android:id="@id/slider_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="vertical">
+        <!-- Sliders go here -->
+    </LinearLayout>
+</LinearLayout>
