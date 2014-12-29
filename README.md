@@ -17,7 +17,7 @@ Additionally, Noyze offers refined control over how volume buttons look and beha
 
 ##### Support
 
-If you enjoy Noyze and/ or find this source code useful, please consider donating (my PayPal is contact@tombarrasso.com).  
+If you enjoy Noyze and/ or find this source code useful, please consider donating (my PayPal is [contact@tombarrasso.com](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=contact@tombarrasso.com&lc=US&item_name=Thomas%20Barrasso&item_number=Noyze&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)).  
 If you're using this code in your project, please let me know! Attribution would be much appreciated.
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/B_eZyYcv6Cs/0.jpg)](http://www.youtube.com/watch?v=B_eZyYcv6Cs)
