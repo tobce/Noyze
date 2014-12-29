@@ -1,11 +1,8 @@
 # Noyze Volume Panel
 ## The customizable no-root volume panel replacement for Android 4.3+
-
-=====
-
 ### Download
 
-You can download the latest release build of Noyze on [APK Shared](http://apkshared.net/4gf).  
+You can download the latest release build of Noyze on [APK Shared](http://apkshared.net/4gf).
 
 =====
 
@@ -17,7 +14,6 @@ heads-up display (popup window) with information about the current volume level(
 Additionally, Noyze offers refined control over how volume buttons look and behave. It comes pre-built
 with a number of themes and settings as well as music controls. Noyze solves the problem of a volume
 panel that only gets in the way. It also allows you to pick a style that fits your current setup.
-
 =====
 
 ##### Support
