@@ -11,9 +11,8 @@ Android 4.3+. It uses [Accessibility](https://developer.android.com/design/patte
 to override how the system responds to the volume buttons. It responds by presenting a
 heads-up display (popup window) with information about the current volume level(s).  
 
-Additionally, Noyze offers refined control over how volume buttons look and behave. It comes pre-built
-with a number of themes and settings as well as music controls. Noyze solves the problem of a volume
-panel that only gets in the way. It also allows you to pick a style that fits your current setup.
+Additionally, Noyze offers refined control over how volume buttons look and behave. It comes pre-built with a number of themes and settings as well as music controls. Noyze solves the problem of a volume panel that only gets in the way. It also allows you to pick a style that fits your current setup.
+
 =====
 
 ##### Support
